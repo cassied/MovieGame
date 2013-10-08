@@ -10,4 +10,6 @@
 
 @interface Question3ViewController : UIViewController
 
+-(IBAction)showMessage;
+
 @end

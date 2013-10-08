@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7542498B18038A7C0036F867 /* Question3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7542498A18038A7C0036F867 /* Question3ViewController.m */; };
 		75A2C7B6180382DF00E1DB92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75A2C7B5180382DF00E1DB92 /* UIKit.framework */; };
 		75A2C7B8180382DF00E1DB92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75A2C7B7180382DF00E1DB92 /* Foundation.framework */; };
 		75A2C7BA180382DF00E1DB92 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75A2C7B9180382DF00E1DB92 /* CoreGraphics.framework */; };
@@ -23,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7542498918038A7C0036F867 /* Question3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question3ViewController.h; sourceTree = "<group>"; };
+		7542498A18038A7C0036F867 /* Question3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question3ViewController.m; sourceTree = "<group>"; };
 		75A2C7B1180382DF00E1DB92 /* MovieGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75A2C7B5180382DF00E1DB92 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		75A2C7B7180382DF00E1DB92 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -99,6 +102,8 @@
 				75A2C7D9180383DF00E1DB92 /* Question1ViewController.m */,
 				75A2C7DB180386C300E1DB92 /* Question2ViewController.h */,
 				75A2C7DC180386C300E1DB92 /* Question2ViewController.m */,
+				7542498918038A7C0036F867 /* Question3ViewController.h */,
+				7542498A18038A7C0036F867 /* Question3ViewController.m */,
 			);
 			path = MovieGame;
 			sourceTree = "<group>";
@@ -189,6 +194,7 @@
 				75A2C7D2180382DF00E1DB92 /* MovieGameViewController.m in Sources */,
 				75A2C7DA180383DF00E1DB92 /* Question1ViewController.m in Sources */,
 				75A2C7DD180386C300E1DB92 /* Question2ViewController.m in Sources */,
+				7542498B18038A7C0036F867 /* Question3ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +311,7 @@
 				75A2C7D7180382DF00E1DB92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

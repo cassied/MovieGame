@@ -136,6 +136,100 @@
             </objects>
             <point key="canvasLocation" x="980" y="70"/>
         </scene>
+        <!--Question3 View Controller - Question #3-->
+        <scene sceneID="kpj-yI-MIt">
+            <objects>
+                <viewController id="ElN-em-sYg" customClass="Question3ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4wF-D3-b0C">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Fd-hK-HSv">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="A. Death Dealers">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZeT-dW-1T3">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="B. Death Eaters">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showMessage" destination="gPZ-5G-mJ8" eventType="touchUpInside" id="REJ-WN-PzV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lo8-dp-dMu">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="C. Dog Sitters">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showMessage" destination="gPZ-5G-mJ8" eventType="touchUpInside" id="Osf-37-m5o"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hfc-LH-06H">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="D. Wolf Hunters">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showMessage" destination="gPZ-5G-mJ8" eventType="touchUpInside" id="XoR-9Q-7ZI"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" bouncesZoom="NO" text="In Underworld, Kate Beckinsale's character Selene leads a group of werewolf hunters known as what?" translatesAutoresizingMaskIntoConstraints="NO" id="gNW-es-6lx">
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES" staticText="YES" notEnabled="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="86" id="aTi-H6-D3Q"/>
+                                </constraints>
+                                <color key="textColor" red="0.99607849120000003" green="0.99215692280000001" blue="0.98431378599999997" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Lo8-dp-dMu" firstAttribute="leading" secondItem="4wF-D3-b0C" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="5uY-eO-WvG"/>
+                            <constraint firstAttribute="trailing" secondItem="3Fd-hK-HSv" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="997-S7-ul4"/>
+                            <constraint firstAttribute="trailing" secondItem="Lo8-dp-dMu" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="C3M-0M-9TC"/>
+                            <constraint firstItem="3Fd-hK-HSv" firstAttribute="top" secondItem="4wF-D3-b0C" secondAttribute="top" constant="179" id="CfK-sE-8nc"/>
+                            <constraint firstItem="ZeT-dW-1T3" firstAttribute="top" secondItem="3Fd-hK-HSv" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="DjD-fA-jFJ"/>
+                            <constraint firstItem="Lo8-dp-dMu" firstAttribute="top" secondItem="ZeT-dW-1T3" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="FV8-P4-eDr"/>
+                            <constraint firstAttribute="trailing" secondItem="gNW-es-6lx" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="P6p-Ji-RDI"/>
+                            <constraint firstItem="hfc-LH-06H" firstAttribute="leading" secondItem="4wF-D3-b0C" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="TKT-DC-iGY"/>
+                            <constraint firstItem="gNW-es-6lx" firstAttribute="leading" secondItem="4wF-D3-b0C" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="XaI-lf-tfM"/>
+                            <constraint firstItem="hfc-LH-06H" firstAttribute="top" secondItem="Lo8-dp-dMu" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="aJz-yB-qxN"/>
+                            <constraint firstItem="3Fd-hK-HSv" firstAttribute="leading" secondItem="4wF-D3-b0C" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="aT4-Mh-6QU"/>
+                            <constraint firstAttribute="trailing" secondItem="ZeT-dW-1T3" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="kyB-wH-onv"/>
+                            <constraint firstItem="ZeT-dW-1T3" firstAttribute="leading" secondItem="4wF-D3-b0C" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="mYZ-Rx-cbq"/>
+                            <constraint firstAttribute="trailing" secondItem="hfc-LH-06H" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="sOl-jS-XMQ"/>
+                            <constraint firstItem="gNW-es-6lx" firstAttribute="top" secondItem="4wF-D3-b0C" secondAttribute="top" constant="48" id="yod-dF-2XM"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Question #3" id="wWl-hI-Zrn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="j4N-vA-oPA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="610" y="736"/>
+        </scene>
         <!--Question2 View Controller - Question #2-->
         <scene sceneID="pNv-MN-kfa">
             <objects>
@@ -174,6 +268,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="ElN-em-sYg" kind="push" id="aAY-R6-9SI"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gTO-dp-gdR">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
@@ -204,16 +301,16 @@
                             <constraint firstItem="Nye-LW-Lax" firstAttribute="top" secondItem="ENP-02-5ii" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="5wX-Js-fda"/>
                             <constraint firstItem="ENP-02-5ii" firstAttribute="leading" secondItem="zAg-SP-ZTi" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="8fg-oF-ZxW"/>
                             <constraint firstItem="Nye-LW-Lax" firstAttribute="leading" secondItem="zAg-SP-ZTi" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="BN9-rI-yeS"/>
+                            <constraint firstItem="ENP-02-5ii" firstAttribute="top" secondItem="zAg-SP-ZTi" secondAttribute="top" constant="179" id="EYb-Kh-IBW"/>
                             <constraint firstItem="0Kq-uU-3EG" firstAttribute="top" secondItem="Nye-LW-Lax" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="NVZ-cW-8sG"/>
                             <constraint firstItem="0Kq-uU-3EG" firstAttribute="leading" secondItem="zAg-SP-ZTi" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="O8O-ve-MIc"/>
+                            <constraint firstItem="8kl-Fu-Rjn" firstAttribute="top" secondItem="zAg-SP-ZTi" secondAttribute="top" constant="48" id="SeI-Lc-G9j"/>
                             <constraint firstItem="8kl-Fu-Rjn" firstAttribute="leading" secondItem="zAg-SP-ZTi" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="a8g-f2-5ZU"/>
                             <constraint firstItem="gTO-dp-gdR" firstAttribute="leading" secondItem="zAg-SP-ZTi" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="cys-yP-k0y"/>
                             <constraint firstItem="gTO-dp-gdR" firstAttribute="top" secondItem="0Kq-uU-3EG" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="dVk-tI-433"/>
                             <constraint firstAttribute="trailing" secondItem="8kl-Fu-Rjn" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="dpq-kP-0Lo"/>
                             <constraint firstAttribute="trailing" secondItem="ENP-02-5ii" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="fzA-bV-o5J"/>
                             <constraint firstAttribute="trailing" secondItem="Nye-LW-Lax" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="gZG-qP-1oq"/>
-                            <constraint firstItem="8kl-Fu-Rjn" firstAttribute="top" secondItem="zAg-SP-ZTi" secondAttribute="top" constant="46" id="hE5-pB-bjj"/>
-                            <constraint firstItem="ENP-02-5ii" firstAttribute="top" secondItem="zAg-SP-ZTi" secondAttribute="top" constant="177" id="q57-qx-tfD"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Question #2" id="3Gb-VP-Tas"/>
@@ -256,6 +353,12 @@
         </class>
         <class className="Question2ViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/Question2ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="showMessage"/>
+            </relationships>
+        </class>
+        <class className="Question3ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/Question3ViewController.h"/>
             <relationships>
                 <relationship kind="action" name="showMessage"/>
             </relationships>
