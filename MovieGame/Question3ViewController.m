@@ -1,0 +1,38 @@
+//
+//  Question3ViewController.m
+//  MovieGame
+//
+//  Created by Cassie Dusute on 10/7/13.
+//  Copyright (c) 2013 com.eatmychucks. All rights reserved.
+//
+
+#import "Question3ViewController.h"
+
+@interface Question3ViewController ()
+
+@end
+
+@implementation Question3ViewController
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        // Custom initialization
+    }
+    return self;
+}
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+	// Do any additional setup after loading the view.
+}
+
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+@end
