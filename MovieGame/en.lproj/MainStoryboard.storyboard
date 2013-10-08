@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2843" systemVersion="11G63" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="IEM-A5-uoC">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1929"/>
+    </dependencies>
+    <scenes>
+        <!--Movie Game View Controller - Movie Game-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="MovieGameViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wBq-6N-34E">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Start Game!">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="gPZ-5G-mJ8" kind="push" id="jqG-Hh-QA3"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wBq-6N-34E" firstAttribute="top" secondItem="3" secondAttribute="top" constant="178" id="VwS-7V-bdE"/>
+                            <constraint firstAttribute="trailing" secondItem="wBq-6N-34E" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="bCv-kT-2tp"/>
+                            <constraint firstItem="wBq-6N-34E" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="wu0-mT-4oS"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Movie Game" id="sE8-Ec-ryr"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="610" y="70"/>
+        </scene>
+        <!--Question1 View Controller - Question #1-->
+        <scene sceneID="BOm-eI-HGt">
+            <objects>
+                <viewController id="gPZ-5G-mJ8" customClass="Question1ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rNd-op-4a2">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WUu-iC-b4c">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="A. Death Dealers">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="KRQ-Nh-HRm" kind="push" id="GIE-0F-cwj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eFP-HX-C6E">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="B. Death Eaters">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showMessage" destination="gPZ-5G-mJ8" eventType="touchUpInside" id="hna-yi-GQX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iok-b4-BI8">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="C. Dog Sitters">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showMessage" destination="gPZ-5G-mJ8" eventType="touchUpInside" id="KaB-P8-5kB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yKM-gw-tlC">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="D. Wolf Hunters">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showMessage" destination="gPZ-5G-mJ8" eventType="touchUpInside" id="4Le-ZM-CV4"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" bouncesZoom="NO" text="In Underworld, Kate Beckinsale's character Selene leads a group of werewolf hunters known as what?" translatesAutoresizingMaskIntoConstraints="NO" id="bre-Ib-5fY">
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES" staticText="YES" notEnabled="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="86" id="wOn-Ri-XcK"/>
+                                </constraints>
+                                <color key="textColor" red="0.99607849120000003" green="0.99215692280000001" blue="0.98431378599999997" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="bre-Ib-5fY" firstAttribute="top" secondItem="rNd-op-4a2" secondAttribute="top" constant="49" id="1nP-qZ-QO3"/>
+                            <constraint firstItem="eFP-HX-C6E" firstAttribute="top" secondItem="WUu-iC-b4c" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="2Ll-fV-JEq"/>
+                            <constraint firstItem="yKM-gw-tlC" firstAttribute="leading" secondItem="rNd-op-4a2" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="7Mn-Pd-knM"/>
+                            <constraint firstItem="yKM-gw-tlC" firstAttribute="top" secondItem="iok-b4-BI8" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="96s-DR-ate"/>
+                            <constraint firstItem="WUu-iC-b4c" firstAttribute="leading" secondItem="rNd-op-4a2" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="MFQ-bz-EQ8"/>
+                            <constraint firstAttribute="trailing" secondItem="bre-Ib-5fY" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="QOC-M5-ttf"/>
+                            <constraint firstAttribute="trailing" secondItem="WUu-iC-b4c" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="Sag-Wo-IdB"/>
+                            <constraint firstItem="eFP-HX-C6E" firstAttribute="leading" secondItem="rNd-op-4a2" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="XFu-Wv-gG0"/>
+                            <constraint firstAttribute="trailing" secondItem="iok-b4-BI8" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="aDU-RP-Jd7"/>
+                            <constraint firstItem="WUu-iC-b4c" firstAttribute="top" secondItem="rNd-op-4a2" secondAttribute="top" constant="179" id="aHV-VH-S7w"/>
+                            <constraint firstAttribute="trailing" secondItem="eFP-HX-C6E" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="ey8-Ws-2zS"/>
+                            <constraint firstItem="iok-b4-BI8" firstAttribute="leading" secondItem="rNd-op-4a2" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="fiM-O1-xZo"/>
+                            <constraint firstItem="bre-Ib-5fY" firstAttribute="leading" secondItem="rNd-op-4a2" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="o7O-0M-bpE"/>
+                            <constraint firstItem="iok-b4-BI8" firstAttribute="top" secondItem="eFP-HX-C6E" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="r6Y-3h-dD4"/>
+                            <constraint firstAttribute="trailing" secondItem="yKM-gw-tlC" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="z3r-ry-ljb"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Question #1" id="YAQ-YK-X6e"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6nC-v0-v0e" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="980" y="70"/>
+        </scene>
+        <!--Question2 View Controller - Question #2-->
+        <scene sceneID="pNv-MN-kfa">
+            <objects>
+                <viewController id="KRQ-Nh-HRm" customClass="Question2ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zAg-SP-ZTi">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ENP-02-5ii">
+                                <rect key="contentStretch" x="0.050000000000000017" y="0.0" width="1" height="1"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="A. Death Dealers">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nye-LW-Lax">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="B. Death Eaters">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Kq-uU-3EG">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="C. Dog Sitters">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gTO-dp-gdR">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="D. Wolf Hunters">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" bouncesZoom="NO" text="In Underworld, Kate Beckinsale's character Selene leads a group of werewolf hunters known as what?" translatesAutoresizingMaskIntoConstraints="NO" id="8kl-Fu-Rjn">
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES" staticText="YES" notEnabled="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="86" id="p9g-YQ-nx5"/>
+                                </constraints>
+                                <color key="textColor" red="0.99607849120000003" green="0.99215692280000001" blue="0.98431378599999997" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="gTO-dp-gdR" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="0Ig-LD-qJl"/>
+                            <constraint firstAttribute="trailing" secondItem="0Kq-uU-3EG" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="2Nx-ye-Iv0"/>
+                            <constraint firstItem="Nye-LW-Lax" firstAttribute="top" secondItem="ENP-02-5ii" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="5wX-Js-fda"/>
+                            <constraint firstItem="ENP-02-5ii" firstAttribute="leading" secondItem="zAg-SP-ZTi" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="8fg-oF-ZxW"/>
+                            <constraint firstItem="Nye-LW-Lax" firstAttribute="leading" secondItem="zAg-SP-ZTi" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="BN9-rI-yeS"/>
+                            <constraint firstItem="0Kq-uU-3EG" firstAttribute="top" secondItem="Nye-LW-Lax" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="NVZ-cW-8sG"/>
+                            <constraint firstItem="0Kq-uU-3EG" firstAttribute="leading" secondItem="zAg-SP-ZTi" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="O8O-ve-MIc"/>
+                            <constraint firstItem="8kl-Fu-Rjn" firstAttribute="leading" secondItem="zAg-SP-ZTi" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="a8g-f2-5ZU"/>
+                            <constraint firstItem="gTO-dp-gdR" firstAttribute="leading" secondItem="zAg-SP-ZTi" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="cys-yP-k0y"/>
+                            <constraint firstItem="gTO-dp-gdR" firstAttribute="top" secondItem="0Kq-uU-3EG" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="dVk-tI-433"/>
+                            <constraint firstAttribute="trailing" secondItem="8kl-Fu-Rjn" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="dpq-kP-0Lo"/>
+                            <constraint firstAttribute="trailing" secondItem="ENP-02-5ii" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="fzA-bV-o5J"/>
+                            <constraint firstAttribute="trailing" secondItem="Nye-LW-Lax" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="gZG-qP-1oq"/>
+                            <constraint firstItem="8kl-Fu-Rjn" firstAttribute="top" secondItem="zAg-SP-ZTi" secondAttribute="top" constant="46" id="hE5-pB-bjj"/>
+                            <constraint firstItem="ENP-02-5ii" firstAttribute="top" secondItem="zAg-SP-ZTi" secondAttribute="top" constant="177" id="q57-qx-tfD"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Question #2" id="3Gb-VP-Tas"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Xt-2d-JpI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1340" y="72"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="2ID-b8-Mdl">
+            <objects>
+                <navigationController id="IEM-A5-uoC" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="EOr-25-AND">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="2" kind="relationship" relationship="rootViewController" id="iS5-9b-LNy"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rjf-xQ-RD9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="235" y="70"/>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="MovieGameViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MovieGameViewController.h"/>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="Question1ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/Question1ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="showMessage"/>
+            </relationships>
+        </class>
+        <class className="Question2ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/Question2ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="showMessage"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
