@@ -25,11 +25,50 @@
                                     <segue destination="gPZ-5G-mJ8" kind="push" id="jqG-Hh-QA3"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" bouncesZoom="NO" editable="NO" text="Welcome to the Movie Game!" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="vfx-aC-tMy">
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES" staticText="YES" notEnabled="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="79" id="JbN-Dl-i9S"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" bouncesZoom="NO" editable="NO" text="The object of the Movie game is to answer as many of the following questions correctly.   " translatesAutoresizingMaskIntoConstraints="NO" id="P5k-va-MuF">
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES" staticText="YES" notEnabled="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="74" id="6bp-7O-akb"/>
+                                </constraints>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView opaque="NO" autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" bouncesZoom="NO" editable="NO" text="Think you're man enoiugh for the challenge? Excellent! Click the button below to get started!" translatesAutoresizingMaskIntoConstraints="NO" id="6KT-UA-d6r">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="68" id="8eY-fM-Ycj"/>
+                                </constraints>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="wBq-6N-34E" firstAttribute="top" secondItem="3" secondAttribute="top" constant="178" id="VwS-7V-bdE"/>
+                            <constraint firstItem="6KT-UA-d6r" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="0Du-Og-xTK"/>
+                            <constraint firstItem="6KT-UA-d6r" firstAttribute="top" secondItem="3" secondAttribute="top" constant="185" id="4eX-o9-D8s"/>
+                            <constraint firstItem="P5k-va-MuF" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Dgq-od-WFr"/>
+                            <constraint firstItem="vfx-aC-tMy" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="I01-pF-3Lb"/>
+                            <constraint firstAttribute="trailing" secondItem="P5k-va-MuF" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="JLe-ns-zRb"/>
+                            <constraint firstAttribute="trailing" secondItem="vfx-aC-tMy" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="JS4-YK-fye"/>
                             <constraint firstAttribute="trailing" secondItem="wBq-6N-34E" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="bCv-kT-2tp"/>
+                            <constraint firstAttribute="bottom" secondItem="wBq-6N-34E" secondAttribute="bottom" constant="91" id="dOS-lQ-bvq"/>
+                            <constraint firstAttribute="trailing" secondItem="6KT-UA-d6r" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="krb-ch-dYW"/>
+                            <constraint firstItem="P5k-va-MuF" firstAttribute="top" secondItem="vfx-aC-tMy" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="vu7-wN-ltv"/>
+                            <constraint firstItem="vfx-aC-tMy" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="wtq-8d-vcB"/>
                             <constraint firstItem="wBq-6N-34E" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="wu0-mT-4oS"/>
                         </constraints>
                     </view>
@@ -44,7 +83,7 @@
             <objects>
                 <viewController id="gPZ-5G-mJ8" customClass="Question1ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rNd-op-4a2">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WUu-iC-b4c">
@@ -141,22 +180,12 @@
             <objects>
                 <viewController id="ElN-em-sYg" customClass="Question3ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4wF-D3-b0C">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Fd-hK-HSv">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="A. Death Dealers">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZeT-dW-1T3">
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="B. Death Eaters">
+                                <state key="normal" title="A. Emma Stone">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -164,12 +193,25 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="showMessage" destination="gPZ-5G-mJ8" eventType="touchUpInside" id="REJ-WN-PzV"/>
+                                    <action selector="showMessage" destination="ElN-em-sYg" eventType="touchUpInside" id="WJi-Sy-Qac"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZeT-dW-1T3">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="B. Rachel McAdams">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="32v-co-RGK" kind="push" id="DqS-t6-3P9"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lo8-dp-dMu">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="C. Dog Sitters">
+                                <state key="normal" title="C. Hilary Duff">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -177,12 +219,12 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="showMessage" destination="gPZ-5G-mJ8" eventType="touchUpInside" id="Osf-37-m5o"/>
+                                    <action selector="showMessage" destination="ElN-em-sYg" eventType="touchUpInside" id="1pP-RU-kMg"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hfc-LH-06H">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="D. Wolf Hunters">
+                                <state key="normal" title="D. Lindsay Lohan">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -190,10 +232,10 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="showMessage" destination="gPZ-5G-mJ8" eventType="touchUpInside" id="XoR-9Q-7ZI"/>
+                                    <action selector="showMessage" destination="ElN-em-sYg" eventType="touchUpInside" id="RDQ-ai-TUb"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" bouncesZoom="NO" text="In Underworld, Kate Beckinsale's character Selene leads a group of werewolf hunters known as what?" translatesAutoresizingMaskIntoConstraints="NO" id="gNW-es-6lx">
+                            <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" bouncesZoom="NO" text="What actress stars opposite Ryan Gosling in 2004's The Notebook?" translatesAutoresizingMaskIntoConstraints="NO" id="gNW-es-6lx">
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" none="YES" staticText="YES" notEnabled="YES"/>
                                 </accessibility>
@@ -230,38 +272,313 @@
             </objects>
             <point key="canvasLocation" x="610" y="736"/>
         </scene>
+        <!--Finished Game View Controller - Movie Game-->
+        <scene sceneID="X0e-M3-WIq">
+            <objects>
+                <viewController id="VbL-tm-wBX" customClass="FinishedGameViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1cD-ig-q0q">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="feK-fJ-bSp">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Start Game!">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="gPZ-5G-mJ8" kind="push" id="vWl-hX-Wz6"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" bouncesZoom="NO" editable="NO" text="Congrats!" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ggD-XP-KQn">
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES" staticText="YES" notEnabled="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="5Xf-WX-2sT"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" bouncesZoom="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qBY-NB-GOV">
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES" staticText="YES" notEnabled="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="111" id="yHG-oF-n0J"/>
+                                </constraints>
+                                <string key="text">You've made it through the movie game! how do you feel? Accomplished? Well good! You deserve a gold star for surviving the game!</string>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView opaque="NO" autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" bouncesZoom="NO" editable="NO" text="What's that? You feel up for another round? Excellent! Click the button below to get started!" translatesAutoresizingMaskIntoConstraints="NO" id="GcY-ch-XLz">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="68" id="pV6-Pi-JHv"/>
+                                </constraints>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ggD-XP-KQn" firstAttribute="leading" secondItem="1cD-ig-q0q" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="7pt-zj-IJe"/>
+                            <constraint firstItem="feK-fJ-bSp" firstAttribute="leading" secondItem="1cD-ig-q0q" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="9Wd-3N-JVA"/>
+                            <constraint firstItem="GcY-ch-XLz" firstAttribute="leading" secondItem="1cD-ig-q0q" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="BvY-ZS-R8g"/>
+                            <constraint firstAttribute="bottom" secondItem="feK-fJ-bSp" secondAttribute="bottom" constant="93" id="DIl-Hh-CB5"/>
+                            <constraint firstItem="qBY-NB-GOV" firstAttribute="top" secondItem="1cD-ig-q0q" secondAttribute="top" constant="79" id="DfE-AI-lE4"/>
+                            <constraint firstAttribute="trailing" secondItem="feK-fJ-bSp" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="Lru-N5-MFF"/>
+                            <constraint firstAttribute="trailing" secondItem="GcY-ch-XLz" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="OCH-xl-ZmD"/>
+                            <constraint firstAttribute="trailing" secondItem="ggD-XP-KQn" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="QmT-RN-ewA"/>
+                            <constraint firstAttribute="trailing" secondItem="qBY-NB-GOV" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="UGG-m5-RPS"/>
+                            <constraint firstItem="GcY-ch-XLz" firstAttribute="top" secondItem="1cD-ig-q0q" secondAttribute="top" constant="191" id="dgH-ah-deg"/>
+                            <constraint firstItem="ggD-XP-KQn" firstAttribute="top" secondItem="1cD-ig-q0q" secondAttribute="top" constant="30" id="geZ-q1-zZ6"/>
+                            <constraint firstItem="qBY-NB-GOV" firstAttribute="leading" secondItem="1cD-ig-q0q" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="wkF-U6-pnS"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Movie Game" id="O9I-tZ-nIj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HFc-rB-5Ap" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="610" y="1436"/>
+        </scene>
+        <!--Question4 View Controller - Question #4-->
+        <scene sceneID="sZB-GP-lnl">
+            <objects>
+                <viewController id="32v-co-RGK" customClass="Question4ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LpW-Ln-GFw">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m0b-SB-J5p">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="A. Little Mermaid">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showMessage" destination="32v-co-RGK" eventType="touchUpInside" id="WCt-QV-LRJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CnZ-bd-G6H">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="B. Aladdin">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showMessage" destination="32v-co-RGK" eventType="touchUpInside" id="0HO-Zu-yZl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fQ5-QP-1yO">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="C. Bambi">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showMessage" destination="32v-co-RGK" eventType="touchUpInside" id="DlF-3P-e5O"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Ry-qN-uWr">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="D. Up">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="iU8-vh-IZj" kind="push" id="Gc0-LD-eyc"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" bouncesZoom="NO" text="What animated film has been nominated for a best picture at the Academy Awards?" translatesAutoresizingMaskIntoConstraints="NO" id="6tE-mS-WVt">
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES" staticText="YES" notEnabled="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="86" id="htK-FA-lcQ"/>
+                                </constraints>
+                                <color key="textColor" red="0.99607849120000003" green="0.99215692280000001" blue="0.98431378599999997" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="m0b-SB-J5p" firstAttribute="leading" secondItem="LpW-Ln-GFw" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="4Lv-3D-QDK"/>
+                            <constraint firstItem="4Ry-qN-uWr" firstAttribute="leading" secondItem="LpW-Ln-GFw" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="4RW-sT-gD7"/>
+                            <constraint firstAttribute="trailing" secondItem="CnZ-bd-G6H" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="4ZW-Ta-0mJ"/>
+                            <constraint firstAttribute="trailing" secondItem="6tE-mS-WVt" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="BeF-h2-LpN"/>
+                            <constraint firstItem="fQ5-QP-1yO" firstAttribute="top" secondItem="CnZ-bd-G6H" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="DTO-oF-NPc"/>
+                            <constraint firstItem="CnZ-bd-G6H" firstAttribute="leading" secondItem="LpW-Ln-GFw" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Dhf-A8-LVj"/>
+                            <constraint firstItem="6tE-mS-WVt" firstAttribute="leading" secondItem="LpW-Ln-GFw" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="GjU-xd-ATY"/>
+                            <constraint firstItem="4Ry-qN-uWr" firstAttribute="top" secondItem="fQ5-QP-1yO" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="HEE-MT-ODJ"/>
+                            <constraint firstItem="CnZ-bd-G6H" firstAttribute="top" secondItem="m0b-SB-J5p" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Uep-Re-KAB"/>
+                            <constraint firstItem="6tE-mS-WVt" firstAttribute="top" secondItem="LpW-Ln-GFw" secondAttribute="top" constant="48" id="afn-sh-9xI"/>
+                            <constraint firstAttribute="trailing" secondItem="fQ5-QP-1yO" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="kYN-hg-LKV"/>
+                            <constraint firstAttribute="trailing" secondItem="m0b-SB-J5p" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="n1A-9T-RRq"/>
+                            <constraint firstItem="fQ5-QP-1yO" firstAttribute="leading" secondItem="LpW-Ln-GFw" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="ndn-hS-gc0"/>
+                            <constraint firstAttribute="trailing" secondItem="4Ry-qN-uWr" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="ngl-ZI-o8E"/>
+                            <constraint firstItem="m0b-SB-J5p" firstAttribute="top" secondItem="LpW-Ln-GFw" secondAttribute="top" constant="179" id="xjf-D4-bn3"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Question #4" id="uRi-2A-mXj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ihD-XQ-oua" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="984" y="735"/>
+        </scene>
+        <!--Question5 View Controller - Question #5-->
+        <scene sceneID="3gd-Tw-R52">
+            <objects>
+                <viewController id="iU8-vh-IZj" customClass="Question5ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kcI-oy-fe7">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ycl-47-LA5">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="A. District 12">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="VbL-tm-wBX" kind="push" id="x5a-Wn-Bso"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EM4-8p-Enc">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="B. District 11">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showMessage" destination="iU8-vh-IZj" eventType="touchUpInside" id="ekF-KD-7Dk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c7d-sU-IA3">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="C. District 10">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showMessage" destination="iU8-vh-IZj" eventType="touchUpInside" id="2Fc-ro-loE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ye0-Yn-Zqa">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="D. District 13">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showMessage" destination="iU8-vh-IZj" eventType="touchUpInside" id="OSj-2n-BuN"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" bouncesZoom="NO" text="In 2012's The Hunger Games, what district did Katniss and Peeta represent?" translatesAutoresizingMaskIntoConstraints="NO" id="wK9-zT-zLP">
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES" staticText="YES" notEnabled="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="86" id="Gr9-5I-VPS"/>
+                                </constraints>
+                                <color key="textColor" red="0.99607849120000003" green="0.99215692280000001" blue="0.98431378599999997" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="c7d-sU-IA3" firstAttribute="leading" secondItem="kcI-oy-fe7" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="5YL-64-jE0"/>
+                            <constraint firstItem="EM4-8p-Enc" firstAttribute="leading" secondItem="kcI-oy-fe7" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="8Vb-J5-D6B"/>
+                            <constraint firstItem="EM4-8p-Enc" firstAttribute="top" secondItem="Ycl-47-LA5" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Dq5-I3-G5s"/>
+                            <constraint firstAttribute="trailing" secondItem="c7d-sU-IA3" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="FOv-2v-LPt"/>
+                            <constraint firstItem="c7d-sU-IA3" firstAttribute="top" secondItem="EM4-8p-Enc" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Jqd-oG-ViG"/>
+                            <constraint firstItem="Ycl-47-LA5" firstAttribute="top" secondItem="kcI-oy-fe7" secondAttribute="top" constant="179" id="W0I-Ck-9PE"/>
+                            <constraint firstItem="wK9-zT-zLP" firstAttribute="top" secondItem="kcI-oy-fe7" secondAttribute="top" constant="48" id="bIe-SW-IYR"/>
+                            <constraint firstAttribute="trailing" secondItem="Ycl-47-LA5" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="d7V-jF-5Yu"/>
+                            <constraint firstItem="Ycl-47-LA5" firstAttribute="leading" secondItem="kcI-oy-fe7" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="eS6-kD-4hZ"/>
+                            <constraint firstItem="Ye0-Yn-Zqa" firstAttribute="leading" secondItem="kcI-oy-fe7" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="g10-zc-MSZ"/>
+                            <constraint firstAttribute="trailing" secondItem="Ye0-Yn-Zqa" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="gDJ-Xl-YDt"/>
+                            <constraint firstAttribute="trailing" secondItem="wK9-zT-zLP" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="n0a-jD-2z9"/>
+                            <constraint firstAttribute="trailing" secondItem="EM4-8p-Enc" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="oGO-cg-B9J"/>
+                            <constraint firstItem="Ye0-Yn-Zqa" firstAttribute="top" secondItem="c7d-sU-IA3" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="pQb-a7-Vcq"/>
+                            <constraint firstItem="wK9-zT-zLP" firstAttribute="leading" secondItem="kcI-oy-fe7" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="sgY-ED-zRN"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Question #5" id="7ua-G6-xux"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ohc-yL-d5f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1357" y="735"/>
+        </scene>
         <!--Question2 View Controller - Question #2-->
         <scene sceneID="pNv-MN-kfa">
             <objects>
                 <viewController id="KRQ-Nh-HRm" customClass="Question2ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zAg-SP-ZTi">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ENP-02-5ii">
                                 <rect key="contentStretch" x="0.050000000000000017" y="0.0" width="1" height="1"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="A. Death Dealers">
+                                <state key="normal" title="A. Buy N Large">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="showMessage" destination="KRQ-Nh-HRm" eventType="touchUpInside" id="Uvb-iB-j5i"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nye-LW-Lax">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="B. Death Eaters">
+                                <state key="normal" title="B. Alias">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="showMessage" destination="KRQ-Nh-HRm" eventType="touchUpInside" id="Zqj-9r-dDa"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Kq-uU-3EG">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="C. Dog Sitters">
+                                <state key="normal" title="C. Axiom">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -274,15 +591,18 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gTO-dp-gdR">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="D. Wolf Hunters">
+                                <state key="normal" title="D. Earth II">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="showMessage" destination="KRQ-Nh-HRm" eventType="touchUpInside" id="qCl-hN-4Zx"/>
+                                </connections>
                             </button>
-                            <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" bouncesZoom="NO" text="In Underworld, Kate Beckinsale's character Selene leads a group of werewolf hunters known as what?" translatesAutoresizingMaskIntoConstraints="NO" id="8kl-Fu-Rjn">
+                            <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" bouncesZoom="NO" text="In Pixar's Wall-E, what is the name of the starline that all of Earth's population lives on in space?" translatesAutoresizingMaskIntoConstraints="NO" id="8kl-Fu-Rjn">
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" none="YES" staticText="YES" notEnabled="YES"/>
                                 </accessibility>
@@ -339,6 +659,9 @@
         </scene>
     </scenes>
     <classes>
+        <class className="FinishedGameViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/FinishedGameViewController.h"/>
+        </class>
         <class className="MovieGameViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/MovieGameViewController.h"/>
         </class>
@@ -363,10 +686,25 @@
                 <relationship kind="action" name="showMessage"/>
             </relationships>
         </class>
+        <class className="Question4ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/Question4ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="showMessage"/>
+            </relationships>
+        </class>
+        <class className="Question5ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/Question5ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="showMessage"/>
+            </relationships>
+        </class>
     </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="vWl-hX-Wz6"/>
+    </inferredMetricsTieBreakers>
 </document>
