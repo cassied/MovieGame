@@ -47,7 +47,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView opaque="NO" autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" bouncesZoom="NO" editable="NO" text="Think you're man enoiugh for the challenge? Excellent! Click the button below to get started!" translatesAutoresizingMaskIntoConstraints="NO" id="6KT-UA-d6r">
+                            <textView autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" bouncesZoom="NO" editable="NO" text="Think you're man enough for the challenge? Excellent! Click the button below to get started!" translatesAutoresizingMaskIntoConstraints="NO" id="6KT-UA-d6r">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="68" id="8eY-fM-Ycj"/>
                                 </constraints>
@@ -169,7 +169,13 @@
                             <constraint firstAttribute="trailing" secondItem="yKM-gw-tlC" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="z3r-ry-ljb"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Question #1" id="YAQ-YK-X6e"/>
+                    <navigationItem key="navigationItem" title="Question #1" id="YAQ-YK-X6e">
+                        <barButtonItem key="rightBarButtonItem" title="Skip" id="4MS-Wf-I70">
+                            <connections>
+                                <segue destination="KRQ-Nh-HRm" kind="push" id="XYf-wL-m7y"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6nC-v0-v0e" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -266,7 +272,13 @@
                             <constraint firstItem="gNW-es-6lx" firstAttribute="top" secondItem="4wF-D3-b0C" secondAttribute="top" constant="48" id="yod-dF-2XM"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Question #3" id="wWl-hI-Zrn"/>
+                    <navigationItem key="navigationItem" title="Question #3" id="wWl-hI-Zrn">
+                        <barButtonItem key="rightBarButtonItem" title="Skip" id="ojI-bw-hJq">
+                            <connections>
+                                <segue destination="32v-co-RGK" kind="push" id="akK-Ma-dsZ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j4N-vA-oPA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -316,7 +328,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView opaque="NO" autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" bouncesZoom="NO" editable="NO" text="What's that? You feel up for another round? Excellent! Click the button below to get started!" translatesAutoresizingMaskIntoConstraints="NO" id="GcY-ch-XLz">
+                            <textView autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" bouncesZoom="NO" editable="NO" text="What's that? You feel up for another round? Excellent! Click the button below to get started!" translatesAutoresizingMaskIntoConstraints="NO" id="GcY-ch-XLz">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="68" id="pV6-Pi-JHv"/>
                                 </constraints>
@@ -438,7 +450,13 @@
                             <constraint firstItem="m0b-SB-J5p" firstAttribute="top" secondItem="LpW-Ln-GFw" secondAttribute="top" constant="179" id="xjf-D4-bn3"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Question #4" id="uRi-2A-mXj"/>
+                    <navigationItem key="navigationItem" title="Question #4" id="uRi-2A-mXj">
+                        <barButtonItem key="rightBarButtonItem" title="Skip" id="w1g-79-qdA">
+                            <connections>
+                                <segue destination="iU8-vh-IZj" kind="push" id="MwE-gf-Odz"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ihD-XQ-oua" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -535,7 +553,13 @@
                             <constraint firstItem="wK9-zT-zLP" firstAttribute="leading" secondItem="kcI-oy-fe7" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="sgY-ED-zRN"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Question #5" id="7ua-G6-xux"/>
+                    <navigationItem key="navigationItem" title="Question #5" id="7ua-G6-xux">
+                        <barButtonItem key="rightBarButtonItem" title="Skip" id="woN-Qn-c9g">
+                            <connections>
+                                <segue destination="VbL-tm-wBX" kind="push" id="f1L-Cd-iBp"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ohc-yL-d5f" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -633,7 +657,13 @@
                             <constraint firstAttribute="trailing" secondItem="Nye-LW-Lax" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="gZG-qP-1oq"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Question #2" id="3Gb-VP-Tas"/>
+                    <navigationItem key="navigationItem" title="Question #2" id="3Gb-VP-Tas">
+                        <barButtonItem key="rightBarButtonItem" title="Skip" id="bc7-qi-FW2">
+                            <connections>
+                                <segue destination="ElN-em-sYg" kind="push" id="Evg-dR-4rg"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Xt-2d-JpI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -705,6 +735,11 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
+        <segue reference="x5a-Wn-Bso"/>
+        <segue reference="MwE-gf-Odz"/>
+        <segue reference="akK-Ma-dsZ"/>
+        <segue reference="aAY-R6-9SI"/>
+        <segue reference="XYf-wL-m7y"/>
         <segue reference="vWl-hX-Wz6"/>
     </inferredMetricsTieBreakers>
 </document>

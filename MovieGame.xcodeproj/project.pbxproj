@@ -11,6 +11,9 @@
 		754FD93E18076C6A005E4281 /* Question4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 754FD93D18076C6A005E4281 /* Question4ViewController.m */; };
 		754FD94118076DFF005E4281 /* Question5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 754FD94018076DFF005E4281 /* Question5ViewController.m */; };
 		754FD94418076F00005E4281 /* FinishedGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 754FD94318076F00005E4281 /* FinishedGameViewController.m */; };
+		75718D331831BEDD00F92484 /* movie-game-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 75718D321831BEDD00F92484 /* movie-game-logo.png */; };
+		75718D351831BEE900F92484 /* movie-game-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 75718D341831BEE900F92484 /* movie-game-logo.png */; };
+		75718D421831CA5600F92484 /* localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75718D411831CA5600F92484 /* localizable.strings */; };
 		75A2C7B6180382DF00E1DB92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75A2C7B5180382DF00E1DB92 /* UIKit.framework */; };
 		75A2C7B8180382DF00E1DB92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75A2C7B7180382DF00E1DB92 /* Foundation.framework */; };
 		75A2C7BA180382DF00E1DB92 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75A2C7B9180382DF00E1DB92 /* CoreGraphics.framework */; };
@@ -35,6 +38,12 @@
 		754FD94018076DFF005E4281 /* Question5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question5ViewController.m; sourceTree = "<group>"; };
 		754FD94218076F00005E4281 /* FinishedGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinishedGameViewController.h; sourceTree = "<group>"; };
 		754FD94318076F00005E4281 /* FinishedGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinishedGameViewController.m; sourceTree = "<group>"; };
+		75718D321831BEDD00F92484 /* movie-game-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "movie-game-logo.png"; path = "../../../Downloads/movie-game-logo.png"; sourceTree = "<group>"; };
+		75718D341831BEE900F92484 /* movie-game-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "movie-game-logo.png"; sourceTree = "<group>"; };
+		75718D361831C46300F92484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		75718D371831C4EE00F92484 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/MainStoryboard.strings; sourceTree = "<group>"; };
+		75718D381831C4EE00F92484 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		75718D411831CA5600F92484 /* localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = localizable.strings; sourceTree = "<group>"; };
 		75A2C7B1180382DF00E1DB92 /* MovieGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75A2C7B5180382DF00E1DB92 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		75A2C7B7180382DF00E1DB92 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -48,7 +57,6 @@
 		75A2C7C7180382DF00E1DB92 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		75A2C7C9180382DF00E1DB92 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		75A2C7CB180382DF00E1DB92 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		75A2C7CE180382DF00E1DB92 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		75A2C7D0180382DF00E1DB92 /* MovieGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieGameViewController.h; sourceTree = "<group>"; };
 		75A2C7D1180382DF00E1DB92 /* MovieGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieGameViewController.m; sourceTree = "<group>"; };
 		75A2C7D8180383DF00E1DB92 /* Question1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question1ViewController.h; sourceTree = "<group>"; };
@@ -74,6 +82,7 @@
 		75A2C7A6180382DF00E1DB92 = {
 			isa = PBXGroup;
 			children = (
+				75718D341831BEE900F92484 /* movie-game-logo.png */,
 				75A2C7BB180382DF00E1DB92 /* MovieGame */,
 				75A2C7B4180382DF00E1DB92 /* Frameworks */,
 				75A2C7B2180382DF00E1DB92 /* Products */,
@@ -126,6 +135,7 @@
 		75A2C7BC180382DF00E1DB92 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				75718D321831BEDD00F92484 /* movie-game-logo.png */,
 				75A2C7BD180382DF00E1DB92 /* MovieGame-Info.plist */,
 				75A2C7BE180382DF00E1DB92 /* InfoPlist.strings */,
 				75A2C7C1180382DF00E1DB92 /* main.m */,
@@ -133,6 +143,7 @@
 				75A2C7C7180382DF00E1DB92 /* Default.png */,
 				75A2C7C9180382DF00E1DB92 /* Default@2x.png */,
 				75A2C7CB180382DF00E1DB92 /* Default-568h@2x.png */,
+				75718D411831CA5600F92484 /* localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -173,6 +184,8 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
+				fr,
 			);
 			mainGroup = 75A2C7A6180382DF00E1DB92;
 			productRefGroup = 75A2C7B2180382DF00E1DB92 /* Products */;
@@ -194,6 +207,9 @@
 				75A2C7CA180382DF00E1DB92 /* Default@2x.png in Resources */,
 				75A2C7CC180382DF00E1DB92 /* Default-568h@2x.png in Resources */,
 				75A2C7CF180382DF00E1DB92 /* MainStoryboard.storyboard in Resources */,
+				75718D331831BEDD00F92484 /* movie-game-logo.png in Resources */,
+				75718D351831BEE900F92484 /* movie-game-logo.png in Resources */,
+				75718D421831CA5600F92484 /* localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +239,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				75A2C7BF180382DF00E1DB92 /* en */,
+				75718D381831C4EE00F92484 /* fr */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -230,7 +247,8 @@
 		75A2C7CD180382DF00E1DB92 /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				75A2C7CE180382DF00E1DB92 /* en */,
+				75718D361831C46300F92484 /* Base */,
+				75718D371831C4EE00F92484 /* fr */,
 			);
 			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
