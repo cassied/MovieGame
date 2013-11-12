@@ -1,9 +1,8 @@
 /* 
-  localizable.strings
+  Localizable.strings
   MovieGame
 
   Created by Cassie Dusute on 11/11/13.
   Copyright (c) 2013 com.eatmychucks. All rights reserved.
 */
-
-"BOOK_PURCHASE" = "merci pour l'achat!";
+"Message" = "Vous avez choisi la mauvaise réponse. S'il vous plaît essayer de nouveau.";

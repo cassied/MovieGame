@@ -38,7 +38,11 @@
 - (IBAction)showMessage
 {
     UIAlertView *WrongAnswerAlert = [[UIAlertView alloc]
-                                     initWithTitle:@"Wrong Answer" message:@"You've chosen the wrong answer. Please try again." delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+                                     initWithTitle:@"Wrong Answer"
+                                     message:NSLocalizedString(@"Message", @"Wrong Answer")
+                                     delegate:nil
+                                     cancelButtonTitle:@"OK"
+                                     otherButtonTitles:nil];
     
     // Display the Hello World Message
     [WrongAnswerAlert show];

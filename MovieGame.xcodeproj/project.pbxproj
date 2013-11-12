@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		7542498B18038A7C0036F867 /* Question3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7542498A18038A7C0036F867 /* Question3ViewController.m */; };
+		754937131831CB1100A136BE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 754937151831CB1100A136BE /* Localizable.strings */; };
 		754FD93E18076C6A005E4281 /* Question4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 754FD93D18076C6A005E4281 /* Question4ViewController.m */; };
 		754FD94118076DFF005E4281 /* Question5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 754FD94018076DFF005E4281 /* Question5ViewController.m */; };
 		754FD94418076F00005E4281 /* FinishedGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 754FD94318076F00005E4281 /* FinishedGameViewController.m */; };
 		75718D331831BEDD00F92484 /* movie-game-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 75718D321831BEDD00F92484 /* movie-game-logo.png */; };
 		75718D351831BEE900F92484 /* movie-game-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 75718D341831BEE900F92484 /* movie-game-logo.png */; };
-		75718D421831CA5600F92484 /* localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75718D411831CA5600F92484 /* localizable.strings */; };
 		75A2C7B6180382DF00E1DB92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75A2C7B5180382DF00E1DB92 /* UIKit.framework */; };
 		75A2C7B8180382DF00E1DB92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75A2C7B7180382DF00E1DB92 /* Foundation.framework */; };
 		75A2C7BA180382DF00E1DB92 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75A2C7B9180382DF00E1DB92 /* CoreGraphics.framework */; };
@@ -32,6 +32,8 @@
 /* Begin PBXFileReference section */
 		7542498918038A7C0036F867 /* Question3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question3ViewController.h; sourceTree = "<group>"; };
 		7542498A18038A7C0036F867 /* Question3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question3ViewController.m; sourceTree = "<group>"; };
+		754937141831CB1100A136BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		754937161831CB1900A136BE /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		754FD93C18076C6A005E4281 /* Question4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question4ViewController.h; sourceTree = "<group>"; };
 		754FD93D18076C6A005E4281 /* Question4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question4ViewController.m; sourceTree = "<group>"; };
 		754FD93F18076DFF005E4281 /* Question5ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question5ViewController.h; sourceTree = "<group>"; };
@@ -43,7 +45,6 @@
 		75718D361831C46300F92484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		75718D371831C4EE00F92484 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/MainStoryboard.strings; sourceTree = "<group>"; };
 		75718D381831C4EE00F92484 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		75718D411831CA5600F92484 /* localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = localizable.strings; sourceTree = "<group>"; };
 		75A2C7B1180382DF00E1DB92 /* MovieGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75A2C7B5180382DF00E1DB92 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		75A2C7B7180382DF00E1DB92 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -143,7 +144,7 @@
 				75A2C7C7180382DF00E1DB92 /* Default.png */,
 				75A2C7C9180382DF00E1DB92 /* Default@2x.png */,
 				75A2C7CB180382DF00E1DB92 /* Default-568h@2x.png */,
-				75718D411831CA5600F92484 /* localizable.strings */,
+				754937151831CB1100A136BE /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -209,7 +210,7 @@
 				75A2C7CF180382DF00E1DB92 /* MainStoryboard.storyboard in Resources */,
 				75718D331831BEDD00F92484 /* movie-game-logo.png in Resources */,
 				75718D351831BEE900F92484 /* movie-game-logo.png in Resources */,
-				75718D421831CA5600F92484 /* localizable.strings in Resources */,
+				754937131831CB1100A136BE /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +236,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		754937151831CB1100A136BE /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				754937141831CB1100A136BE /* en */,
+				754937161831CB1900A136BE /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		75A2C7BE180382DF00E1DB92 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
