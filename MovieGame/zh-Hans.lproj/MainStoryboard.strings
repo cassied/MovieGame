@@ -1,0 +1,137 @@
+
+/* Class = "IBUIButton"; normalTitle = "C. Axiom"; ObjectID = "0Kq-uU-3EG"; */
+"0Kq-uU-3EG.normalTitle" = "C. Gōnglǐ";
+
+/* Class = "IBUIButton"; normalTitle = "A. Emma Stone"; ObjectID = "3Fd-hK-HSv"; */
+"3Fd-hK-HSv.normalTitle" = "A. Ài mǎ sī tōng";
+
+/* Class = "IBUINavigationItem"; title = "Question #2"; ObjectID = "3Gb-VP-Tas"; */
+"3Gb-VP-Tas.title" = "Wèntí èr";
+
+/* Class = "IBUIBarButtonItem"; title = "Skip"; ObjectID = "4MS-Wf-I70"; */
+"4MS-Wf-I70.title" = "Skip";
+
+/* Class = "IBUIButton"; normalTitle = "D. Up"; ObjectID = "4Ry-qN-uWr"; */
+"4Ry-qN-uWr.normalTitle" = "D. Up";
+
+/* Class = "IBUITextView"; text = "Think you're man enough for the challenge? Excellent! Click the button below to get started!"; ObjectID = "6KT-UA-d6r"; */
+"6KT-UA-d6r.text" = "Xiǎng xiǎng nǐ shì nánrén zúgòu de tiǎozhàn ma? Hěn bàng! Diǎnjī xiàmiàn de ànniǔ, yǐ kāishǐ liúlǎn wǎngyè!";
+
+/* Class = "IBUITextView"; text = "What animated film has been nominated for a best picture at the Academy Awards?"; ObjectID = "6tE-mS-WVt"; */
+"6tE-mS-WVt.text" = "Shénme yǐ bèi tímíng wèi zuì jiā yǐngpiàn de dònghuà diànyǐng zài àosīkǎ bānjiǎng diǎnlǐ?";
+
+/* Class = "IBUINavigationItem"; title = "Question #5"; ObjectID = "7ua-G6-xux"; */
+"7ua-G6-xux.title" = "Wèntí wǔ";
+
+/* Class = "IBUITextView"; text = "In Pixar's Wall-E, what is the name of the starline that all of Earth's population lives on in space?"; ObjectID = "8kl-Fu-Rjn"; */
+"8kl-Fu-Rjn.text" = "Zài píkèsī de WALL-E, míngxīng chèn diàn de míngchēng shì shénme suǒyǒu dìqiú shàng de rénkǒu jūzhù zài kōngjiān?";
+
+/* Class = "IBUIButton"; normalTitle = "B. Aladdin"; ObjectID = "CnZ-bd-G6H"; */
+"CnZ-bd-G6H.normalTitle" = "B. Aladdin";
+
+/* Class = "IBUIButton"; normalTitle = "B. District 11"; ObjectID = "EM4-8p-Enc"; */
+"EM4-8p-Enc.normalTitle" = "B. Qū shíyī";
+
+/* Class = "IBUIButton"; normalTitle = "A. Buy N Large"; ObjectID = "ENP-02-5ii"; */
+"ENP-02-5ii.normalTitle" = "A. Buy N Large";
+
+/* Class = "IBUITextView"; text = "What's that? You feel up for another round? Excellent! Click the button below to get started!"; ObjectID = "GcY-ch-XLz"; */
+"GcY-ch-XLz.text" = "Nà shì shénme? Nǐ juéde lìng yī lún? Hěn bàng! Diǎnjī xiàmiàn de ànniǔ, yǐ kāishǐ liúlǎn wǎngyè!";
+
+/* Class = "IBUIButton"; normalTitle = "C. Hilary Duff"; ObjectID = "Lo8-dp-dMu"; */
+"Lo8-dp-dMu.normalTitle" = "C. Xīlā lǐ dá fú";
+
+/* Class = "IBUIButton"; normalTitle = "B. Alias"; ObjectID = "Nye-LW-Lax"; */
+"Nye-LW-Lax.normalTitle" = "B. Bié hào";
+
+/* Class = "IBUINavigationItem"; title = "Movie Game"; ObjectID = "O9I-tZ-nIj"; */
+"O9I-tZ-nIj.title" = "Movie Game";
+
+/* Class = "IBUITextView"; text = "The object of the Movie game is to answer as many of the following questions correctly. 
+
+"; ObjectID = "P5k-va-MuF"; */
+"P5k-va-MuF.text" = "Diànyǐng yóuxì de mùdì shì wèile zhèngquè huídá yǐxià jǐ gè wèntí.";
+
+/* Class = "IBUIButton"; normalTitle = "A. Death Dealers"; ObjectID = "WUu-iC-b4c"; */
+"WUu-iC-b4c.normalTitle" = "A. Sǐwáng jīngxiāo shāng";
+
+/* Class = "IBUINavigationItem"; title = "Question #1"; ObjectID = "YAQ-YK-X6e"; */
+"YAQ-YK-X6e.title" = "Wèntí yī";
+
+/* Class = "IBUIButton"; normalTitle = "A. District 12"; ObjectID = "Ycl-47-LA5"; */
+"Ycl-47-LA5.normalTitle" = "A. Shí'èr qū";
+
+/* Class = "IBUIButton"; normalTitle = "D. District 13"; ObjectID = "Ye0-Yn-Zqa"; */
+"Ye0-Yn-Zqa.normalTitle" = "D. Dì shísān qū";
+
+/* Class = "IBUIButton"; normalTitle = "B. Rachel McAdams"; ObjectID = "ZeT-dW-1T3"; */
+"ZeT-dW-1T3.normalTitle" = "B. Ruì qiū màikè yàdāngsī";
+
+/* Class = "IBUIBarButtonItem"; title = "Skip"; ObjectID = "bc7-qi-FW2"; */
+"bc7-qi-FW2.title" = "Skip";
+
+/* Class = "IBUITextView"; text = "In Underworld, Kate Beckinsale's character Selene leads a group of werewolf hunters known as what?"; ObjectID = "bre-Ib-5fY"; */
+"bre-Ib-5fY.text" = "Míngjiè, kǎitè·bèi jīn sài ěr dì xìnggé sāi lēi niè dàilǐng yī zǔ bèi chēng wèi lángrén lièrén?";
+
+/* Class = "IBUIButton"; normalTitle = "C. District 10"; ObjectID = "c7d-sU-IA3"; */
+"c7d-sU-IA3.normalTitle" = "C. Shí qū";
+
+/* Class = "IBUIButton"; normalTitle = "B. Death Eaters"; ObjectID = "eFP-HX-C6E"; */
+"eFP-HX-C6E.normalTitle" = "B. Shí sǐ tú";
+
+/* Class = "IBUIButton"; normalTitle = "C. Bambi"; ObjectID = "fQ5-QP-1yO"; */
+"fQ5-QP-1yO.normalTitle" = "C. Bambi";
+
+/* Class = "IBUIButton"; normalTitle = "Start Game!"; ObjectID = "feK-fJ-bSp"; */
+"feK-fJ-bSp.normalTitle" = "Kāishǐ yóuxì!";
+
+/* Class = "IBUITextView"; text = "What actress stars opposite Ryan Gosling in 2004's The Notebook?"; ObjectID = "gNW-es-6lx"; */
+"gNW-es-6lx.text" = "Shénme yàng de nǚ yǎnyuán ruì ēn•gāosī lín zài bǐjìběn xīng jí duìmiàn?";
+
+/* Class = "IBUIButton"; normalTitle = "D. Earth II"; ObjectID = "gTO-dp-gdR"; */
+"gTO-dp-gdR.normalTitle" = "D. Dìqiú";
+
+/* Class = "IBUITextView"; text = "Congrats!"; ObjectID = "ggD-XP-KQn"; */
+"ggD-XP-KQn.text" = "Zhùhè nín!";
+
+/* Class = "IBUIButton"; normalTitle = "D. Lindsay Lohan"; ObjectID = "hfc-LH-06H"; */
+"hfc-LH-06H.normalTitle" = "D. Lín sài luó hán";
+
+/* Class = "IBUIButton"; normalTitle = "C. Dog Sitters"; ObjectID = "iok-b4-BI8"; */
+"iok-b4-BI8.normalTitle" = "C. Liú gǒu";
+
+/* Class = "IBUIButton"; normalTitle = "A. Little Mermaid"; ObjectID = "m0b-SB-J5p"; */
+"m0b-SB-J5p.normalTitle" = "A. Little Mermaid";
+
+/* Class = "IBUIBarButtonItem"; title = "Skip"; ObjectID = "ojI-bw-hJq"; */
+"ojI-bw-hJq.title" = "Skip";
+
+/* Class = "IBUITextView"; text = "You've made it through the movie game! how do you feel? Accomplished? Well good! You deserve a gold star for surviving the game!"; ObjectID = "qBY-NB-GOV"; */
+"qBY-NB-GOV.text" = "Nǐ yǐjīng zuòle tā tōngguò diànyǐng yóuxì! Nǐ juéde rúhé? Shíxiàn de ne? Ń bùcuò! Shēngcún yóuxì, nǐ yīnggāi yǒu yīgè jīnsè xīngxīng!";
+
+/* Class = "IBUINavigationItem"; title = "Movie Game"; ObjectID = "sE8-Ec-ryr"; */
+"sE8-Ec-ryr.title" = "Movie Game";
+
+/* Class = "IBUINavigationItem"; title = "Question #4"; ObjectID = "uRi-2A-mXj"; */
+"uRi-2A-mXj.title" = "Wèntí sì";
+
+/* Class = "IBUITextView"; text = "Welcome to the Movie Game!"; ObjectID = "vfx-aC-tMy"; */
+"vfx-aC-tMy.text" = "Huānyíng lái dào diànyǐng yóuxì!";
+
+/* Class = "IBUIBarButtonItem"; title = "Skip"; ObjectID = "w1g-79-qdA"; */
+"w1g-79-qdA.title" = "Skip";
+
+/* Class = "IBUIButton"; normalTitle = "Start Game!"; ObjectID = "wBq-6N-34E"; */
+"wBq-6N-34E.normalTitle" = "Kāishǐ yóuxì!";
+
+/* Class = "IBUITextView"; text = "In 2012's The Hunger Games, what district did Katniss and Peeta represent?"; ObjectID = "wK9-zT-zLP"; */
+"wK9-zT-zLP.text" = "Zài “jī'è yóuxì”, méiyǒu shé me qū Katniss yǔ Peeta dàibiǎo?";
+
+/* Class = "IBUINavigationItem"; title = "Question #3"; ObjectID = "wWl-hI-Zrn"; */
+"wWl-hI-Zrn.title" = "Wèntí san";
+
+/* Class = "IBUIBarButtonItem"; title = "Skip"; ObjectID = "woN-Qn-c9g"; */
+"woN-Qn-c9g.title" = "Skip";
+
+/* Class = "IBUIButton"; normalTitle = "D. Wolf Hunters"; ObjectID = "yKM-gw-tlC"; */
+"yKM-gw-tlC.normalTitle" = "D. Láng lierne";
