@@ -1,0 +1,680 @@
+TMovieGame
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/Info.plist MovieGame/MovieGame-Info.plist
+cSymLink /Users/CassieDusute/Documents/MovieGameiOS/build/Debug-iphonesimulator/MovieGame.app /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app
+cProcessPCH /var/folders/s3/rg62rtgx39dbnvqcxj0l89z00000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/MovieGame-Prefix-dqrxvwnifmjhqlehycoyyyfuvfeo/MovieGame-Prefix.pch.pth MovieGame/MovieGame-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/main.o /Users/CassieDusute/Documents/MovieGameiOS/MovieGame/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/MovieGameAppDelegate.o /Users/CassieDusute/Documents/MovieGameiOS/MovieGame/MovieGameAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/Question1ViewController.o /Users/CassieDusute/Documents/MovieGameiOS/MovieGame/Question1ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/MovieGameViewController.o /Users/CassieDusute/Documents/MovieGameiOS/MovieGame/MovieGameViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/Question2ViewController.o /Users/CassieDusute/Documents/MovieGameiOS/MovieGame/Question2ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/Question3ViewController.o /Users/CassieDusute/Documents/MovieGameiOS/MovieGame/Question3ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/Question4ViewController.o /Users/CassieDusute/Documents/MovieGameiOS/MovieGame/Question4ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/Question5ViewController.o /Users/CassieDusute/Documents/MovieGameiOS/MovieGame/Question5ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/FinishedGameViewController.o /Users/CassieDusute/Documents/MovieGameiOS/MovieGame/FinishedGameViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/MovieGame normal i386
+cGenerateDSYMFile /Users/CassieDusute/Documents/MovieGameiOS/build/Debug-iphonesimulator/MovieGame.app.dSYM /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/MovieGame
+cCopyStringsFile /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/en.lproj/InfoPlist.strings MovieGame/en.lproj/InfoPlist.strings
+cCopyStringsFile /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/fr.lproj/InfoPlist.strings MovieGame/fr.lproj/InfoPlist.strings
+cCopyStringsFile /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/es.lproj/InfoPlist.strings MovieGame/es.lproj/InfoPlist.strings
+cCopyStringsFile /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/zh-Hans.lproj/InfoPlist.strings MovieGame/zh-Hans.lproj/InfoPlist.strings
+cCpResource MovieGame/Default@2x.png Frank/frankified_build/./MovieGame.app/Default@2x.png
+cCpResource MovieGame/Default-568h@2x.png Frank/frankified_build/./MovieGame.app/Default-568h@2x.png
+cCpResource MovieGame/Default.png Frank/frankified_build/./MovieGame.app/Default.png
+cCompileStoryboard /Users/CassieDusute/Documents/MovieGameiOS/MovieGame/Base.lproj/MainStoryboard.storyboard
+cCopyStringsFile /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/fr.lproj/MainStoryboard.strings MovieGame/fr.lproj/MainStoryboard.strings
+cCopyStringsFile /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/es.lproj/MainStoryboard.strings MovieGame/es.lproj/MainStoryboard.strings
+cCopyStringsFile /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/zh-Hans.lproj/MainStoryboard.strings MovieGame/zh-Hans.lproj/MainStoryboard.strings
+cCpResource MovieGame/../../../Downloads/movie-game-logo.png Frank/frankified_build/./MovieGame.app/movie-game-logo.png
+cCpResource movie-game-logo.png Frank/frankified_build/./MovieGame.app/movie-game-logo.png
+cCopyStringsFile /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/en.lproj/Localizable.strings MovieGame/en.lproj/Localizable.strings
+cCopyStringsFile /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/fr.lproj/Localizable.strings MovieGame/fr.lproj/Localizable.strings
+cCopyStringsFile /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/es.lproj/Localizable.strings MovieGame/es.lproj/Localizable.strings
+cCopyStringsFile /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/zh-Hans.lproj/Localizable.strings MovieGame/zh-Hans.lproj/Localizable.strings
+cTouch /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk
+c00000000504916AD0000000000000110
+t1346967213
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000507452260000000000228FD0
+t1349800486
+s2265040
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005074522700000000003DCEF0
+t1349800487
+s4050672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000005074522700000000000015F7
+t1349800487
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c00000000507452290000000000000E8D
+t1349800489
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000005074522A0000000000AB3D60
+t1349800490
+s11222368
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/usr/include/Availability.h
+c00000000507452330000000000001B54
+t1349800499
+s6996
+
+N/Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app
+t2
+s0
+
+N/Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/Base.lproj/MainStoryboard.storyboardc
+t2
+s0
+
+N/Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/Default-568h@2x.png
+t2
+s0
+
+N/Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/Default.png
+t2
+s0
+
+N/Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/Default@2x.png
+t2
+s0
+
+N/Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/Info.plist
+t2
+s0
+
+N/Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/MovieGame
+t2
+s0
+
+N/Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/PkgInfo
+t2
+s0
+
+N/Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/en.lproj/Localizable.strings
+t2
+s0
+
+N/Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/es.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/es.lproj/Localizable.strings
+t2
+s0
+
+N/Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/es.lproj/MainStoryboard.strings
+t2
+s0
+
+N/Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/fr.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/fr.lproj/Localizable.strings
+t2
+s0
+
+N/Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/fr.lproj/MainStoryboard.strings
+t2
+s0
+
+N/Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/movie-game-logo.png
+t2
+s0
+
+N/Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/zh-Hans.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/zh-Hans.lproj/Localizable.strings
+t2
+s0
+
+N/Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/zh-Hans.lproj/MainStoryboard.strings
+t2
+s0
+
+N/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/../../../Downloads/movie-game-logo.png
+c00000000528187490000000000000D9F
+t1384220489
+s3487
+
+N/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/Base.lproj/MainStoryboard.storyboard
+c00000000528186D90000000000012128
+t1384220377
+s74024
+
+N/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/Default-568h@2x.png
+c000000005062328600000000000048A2
+t1348612742
+s18594
+
+N/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/Default.png
+c0000000050623286000000000000198C
+t1348612742
+s6540
+
+N/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/Default@2x.png
+c00000000506232860000000000003EEB
+t1348612742
+s16107
+
+N/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/FinishedGameViewController.m
+c000000005257378000000000000002F5
+t1381447552
+s757
+
+N/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/MovieGame-Prefix.pch
+c0000000052534B5F0000000000000141
+t1381190495
+s321
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/MovieGameAppDelegate.m
+c0000000052534B5F00000000000007FA
+t1381190495
+s2042
+
+N/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/MovieGameViewController.m
+c0000000052534B5F0000000000000219
+t1381190495
+s537
+
+N/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/Question1ViewController.m
+c00000000528194F000000000000004D2
+t1384223984
+s1234
+
+N/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/Question2ViewController.m
+c00000000528194FD00000000000004D2
+t1384223997
+s1234
+
+N/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/Question3ViewController.m
+c000000005281950100000000000004D3
+t1384224001
+s1235
+
+N/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/Question4ViewController.m
+c000000005281950700000000000004D3
+t1384224007
+s1235
+
+N/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/Question5ViewController.m
+c000000005281950D00000000000004D3
+t1384224013
+s1235
+
+N/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/en.lproj/InfoPlist.strings
+c0000000052534B5F000000000000002D
+t1381190495
+s45
+
+N/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/en.lproj/Localizable.strings
+c00000000528194E500000000000000CE
+t1384223973
+s206
+
+N/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/es.lproj/InfoPlist.strings
+c0000000052534B5F000000000000002D
+t1381190495
+s45
+
+N/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/es.lproj/Localizable.strings
+c00000000528195AA00000000000000E1
+t1384224170
+s225
+
+N/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/es.lproj/MainStoryboard.strings
+c00000000528197750000000000001BB8
+t1384224629
+s7096
+
+N/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/fr.lproj/InfoPlist.strings
+c0000000052534B5F000000000000002D
+t1381190495
+s45
+
+N/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/fr.lproj/Localizable.strings
+c00000000528194E000000000000000E8
+t1384223968
+s232
+
+N/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/fr.lproj/MainStoryboard.strings
+c000000005281903E0000000000001BB8
+t1384222782
+s7096
+
+N/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/main.m
+c0000000052534B5F000000000000016A
+t1381190495
+s362
+
+N/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/zh-Hans.lproj/InfoPlist.strings
+c0000000052534B5F000000000000002D
+t1381190495
+s45
+
+N/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/zh-Hans.lproj/Localizable.strings
+c0000000052819A4F00000000000000D7
+t1384225359
+s215
+
+N/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/zh-Hans.lproj/MainStoryboard.strings
+c0000000052819A330000000000001C2A
+t1384225331
+s7210
+
+N/Users/CassieDusute/Documents/MovieGameiOS/build/Debug-iphonesimulator/MovieGame.app
+t2
+s0
+
+N/Users/CassieDusute/Documents/MovieGameiOS/build/Debug-iphonesimulator/MovieGame.app.dSYM
+t2
+s0
+
+N/Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/FinishedGameViewController.o
+t2
+s0
+
+N/Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/MovieGame.LinkFileList
+c000000005286327F000000000000052A
+t1384526463
+s1322
+
+N/Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/MovieGameAppDelegate.o
+t2
+s0
+
+N/Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/MovieGameViewController.o
+t2
+s0
+
+N/Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/Question1ViewController.o
+t2
+s0
+
+N/Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/Question2ViewController.o
+t2
+s0
+
+N/Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/Question3ViewController.o
+t2
+s0
+
+N/Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/Question4ViewController.o
+t2
+s0
+
+N/Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/Question5ViewController.o
+t2
+s0
+
+N/Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/CassieDusute/Documents/MovieGameiOS/movie-game-logo.png
+c00000000528187490000000000000D9F
+t1384220489
+s3487
+
+N/var/folders/s3/rg62rtgx39dbnvqcxj0l89z00000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/MovieGame-Prefix-dqrxvwnifmjhqlehycoyyyfuvfeo/MovieGame-Prefix.pch.pth
+t2
+s0
+
+NMovieGame/MovieGame-Info.plist
+c0000000052818CBF00000000000005A5
+t1384221887
+s1445
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies6285dfff6936b841^f4a6eaff6936b841^-151"Warning: Multiple build commands for output file /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/movie-game-logo.png1(21%IDEActivityLogMessage2@150"Warning: Multiple build commands for output file /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/movie-game-logo.png-406219263#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--0#1#0#--18"Check dependencies36"1E10D30A-48F5-4A46-B6DD-8F85F9A87ADB-
+
+CCompileC build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/FinishedGameViewController.o /Users/CassieDusute/Documents/MovieGameiOS/MovieGame/FinishedGameViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s406219264.397091
+e406219264.463426
+r1
+xCompileC
+xbuild/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/FinishedGameViewController.o
+x/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/FinishedGameViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/CassieDusute/Documents/MovieGameiOS/MovieGame/FinishedGameViewController.m77d765006a36b841^7ba376006a36b841^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/FinishedGameViewController.m0000000000000000^3747"CompileC build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/FinishedGameViewController.o MovieGame/FinishedGameViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/CassieDusute/Documents/MovieGameiOS    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/MovieGame-generated-files.hmap -I/Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/MovieGame-own-target-headers.hmap -I/Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/MovieGame-all-target-headers.hmap -iquote /Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/MovieGame-project-headers.hmap -I/Users/CassieDusute/Documents/MovieGameiOS/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/DerivedSources/i386 -I/Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/DerivedSources -F/Users/CassieDusute/Documents/MovieGameiOS/build/Debug-iphonesimulator -include /var/folders/s3/rg62rtgx39dbnvqcxj0l89z00000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/MovieGame-Prefix-dqrxvwnifmjhqlehycoyyyfuvfeo/MovieGame-Prefix.pch -MMD -MT dependencies -MF /Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/FinishedGameViewController.d --serialize-diagnostics /Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/FinishedGameViewController.dia -c /Users/CassieDusute/Documents/MovieGameiOS/MovieGame/FinishedGameViewController.m -o /Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/FinishedGameViewController.o36"80A6B8AC-FF41-446B-AA4D-A918FE384C23-
+
+CCompileC build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/MovieGameAppDelegate.o /Users/CassieDusute/Documents/MovieGameiOS/MovieGame/MovieGameAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s406219264.357420
+e406219264.448788
+r1
+xCompileC
+xbuild/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/MovieGameAppDelegate.o
+x/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/MovieGameAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/CassieDusute/Documents/MovieGameiOS/MovieGame/MovieGameAppDelegate.m37a65b006a36b841^4be472006a36b841^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/MovieGameAppDelegate.m0000000000000000^3711"CompileC build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/MovieGameAppDelegate.o MovieGame/MovieGameAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/CassieDusute/Documents/MovieGameiOS    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/MovieGame-generated-files.hmap -I/Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/MovieGame-own-target-headers.hmap -I/Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/MovieGame-all-target-headers.hmap -iquote /Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/MovieGame-project-headers.hmap -I/Users/CassieDusute/Documents/MovieGameiOS/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/DerivedSources/i386 -I/Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/DerivedSources -F/Users/CassieDusute/Documents/MovieGameiOS/build/Debug-iphonesimulator -include /var/folders/s3/rg62rtgx39dbnvqcxj0l89z00000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/MovieGame-Prefix-dqrxvwnifmjhqlehycoyyyfuvfeo/MovieGame-Prefix.pch -MMD -MT dependencies -MF /Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/MovieGameAppDelegate.d --serialize-diagnostics /Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/MovieGameAppDelegate.dia -c /Users/CassieDusute/Documents/MovieGameiOS/MovieGame/MovieGameAppDelegate.m -o /Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/MovieGameAppDelegate.o36"A6D8AD0B-DC3C-476E-B135-3F55BE11F1E1-
+
+CCompileC build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/MovieGameViewController.o /Users/CassieDusute/Documents/MovieGameiOS/MovieGame/MovieGameViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s406219264.357535
+e406219264.438272
+r1
+xCompileC
+xbuild/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/MovieGameViewController.o
+x/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/MovieGameViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/CassieDusute/Documents/MovieGameiOS/MovieGame/MovieGameViewController.mf2b15b006a36b841^914370006a36b841^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/MovieGameViewController.m0000000000000000^3729"CompileC build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/MovieGameViewController.o MovieGame/MovieGameViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/CassieDusute/Documents/MovieGameiOS    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/MovieGame-generated-files.hmap -I/Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/MovieGame-own-target-headers.hmap -I/Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/MovieGame-all-target-headers.hmap -iquote /Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/MovieGame-project-headers.hmap -I/Users/CassieDusute/Documents/MovieGameiOS/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/DerivedSources/i386 -I/Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/DerivedSources -F/Users/CassieDusute/Documents/MovieGameiOS/build/Debug-iphonesimulator -include /var/folders/s3/rg62rtgx39dbnvqcxj0l89z00000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/MovieGame-Prefix-dqrxvwnifmjhqlehycoyyyfuvfeo/MovieGame-Prefix.pch -MMD -MT dependencies -MF /Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/MovieGameViewController.d --serialize-diagnostics /Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/MovieGameViewController.dia -c /Users/CassieDusute/Documents/MovieGameiOS/MovieGame/MovieGameViewController.m -o /Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/MovieGameViewController.o36"E478CA45-5014-42BC-AF91-EFDBEE1EF8DF-
+
+CCompileC build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/Question1ViewController.o /Users/CassieDusute/Documents/MovieGameiOS/MovieGame/Question1ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s406219264.357475
+e406219264.445497
+r1
+xCompileC
+xbuild/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/Question1ViewController.o
+x/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/Question1ViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/CassieDusute/Documents/MovieGameiOS/MovieGame/Question1ViewController.me2ad5b006a36b841^170c72006a36b841^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/Question1ViewController.m0000000000000000^3729"CompileC build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/Question1ViewController.o MovieGame/Question1ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/CassieDusute/Documents/MovieGameiOS    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/MovieGame-generated-files.hmap -I/Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/MovieGame-own-target-headers.hmap -I/Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/MovieGame-all-target-headers.hmap -iquote /Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/MovieGame-project-headers.hmap -I/Users/CassieDusute/Documents/MovieGameiOS/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/DerivedSources/i386 -I/Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/DerivedSources -F/Users/CassieDusute/Documents/MovieGameiOS/build/Debug-iphonesimulator -include /var/folders/s3/rg62rtgx39dbnvqcxj0l89z00000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/MovieGame-Prefix-dqrxvwnifmjhqlehycoyyyfuvfeo/MovieGame-Prefix.pch -MMD -MT dependencies -MF /Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/Question1ViewController.d --serialize-diagnostics /Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/Question1ViewController.dia -c /Users/CassieDusute/Documents/MovieGameiOS/MovieGame/Question1ViewController.m -o /Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/Question1ViewController.o36"58EBA5A6-CC55-4888-AF3B-F5A700F1E981-
+
+CCompileC build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/Question2ViewController.o /Users/CassieDusute/Documents/MovieGameiOS/MovieGame/Question2ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s406219264.357544
+e406219264.448801
+r1
+xCompileC
+xbuild/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/Question2ViewController.o
+x/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/Question2ViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/CassieDusute/Documents/MovieGameiOS/MovieGame/Question2ViewController.m29b15b006a36b841^a93373006a36b841^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/Question2ViewController.m0000000000000000^3729"CompileC build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/Question2ViewController.o MovieGame/Question2ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/CassieDusute/Documents/MovieGameiOS    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/MovieGame-generated-files.hmap -I/Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/MovieGame-own-target-headers.hmap -I/Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/MovieGame-all-target-headers.hmap -iquote /Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/MovieGame-project-headers.hmap -I/Users/CassieDusute/Documents/MovieGameiOS/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/DerivedSources/i386 -I/Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/DerivedSources -F/Users/CassieDusute/Documents/MovieGameiOS/build/Debug-iphonesimulator -include /var/folders/s3/rg62rtgx39dbnvqcxj0l89z00000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/MovieGame-Prefix-dqrxvwnifmjhqlehycoyyyfuvfeo/MovieGame-Prefix.pch -MMD -MT dependencies -MF /Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/Question2ViewController.d --serialize-diagnostics /Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/Question2ViewController.dia -c /Users/CassieDusute/Documents/MovieGameiOS/MovieGame/Question2ViewController.m -o /Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/Question2ViewController.o36"08A3F9F6-9C82-4113-A2D9-A3DE7E8962F3-
+
+CCompileC build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/Question3ViewController.o /Users/CassieDusute/Documents/MovieGameiOS/MovieGame/Question3ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s406219264.357564
+e406219264.452247
+r1
+xCompileC
+xbuild/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/Question3ViewController.o
+x/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/Question3ViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/CassieDusute/Documents/MovieGameiOS/MovieGame/Question3ViewController.meeb25b006a36b841^efc573006a36b841^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/Question3ViewController.m0000000000000000^3729"CompileC build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/Question3ViewController.o MovieGame/Question3ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/CassieDusute/Documents/MovieGameiOS    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/MovieGame-generated-files.hmap -I/Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/MovieGame-own-target-headers.hmap -I/Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/MovieGame-all-target-headers.hmap -iquote /Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/MovieGame-project-headers.hmap -I/Users/CassieDusute/Documents/MovieGameiOS/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/DerivedSources/i386 -I/Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/DerivedSources -F/Users/CassieDusute/Documents/MovieGameiOS/build/Debug-iphonesimulator -include /var/folders/s3/rg62rtgx39dbnvqcxj0l89z00000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/MovieGame-Prefix-dqrxvwnifmjhqlehycoyyyfuvfeo/MovieGame-Prefix.pch -MMD -MT dependencies -MF /Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/Question3ViewController.d --serialize-diagnostics /Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/Question3ViewController.dia -c /Users/CassieDusute/Documents/MovieGameiOS/MovieGame/Question3ViewController.m -o /Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/Question3ViewController.o36"5427D841-BB47-4803-A79F-178D85E8017F-
+
+CCompileC build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/Question4ViewController.o /Users/CassieDusute/Documents/MovieGameiOS/MovieGame/Question4ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s406219264.357576
+e406219264.454767
+r1
+xCompileC
+xbuild/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/Question4ViewController.o
+x/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/Question4ViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/CassieDusute/Documents/MovieGameiOS/MovieGame/Question4ViewController.m1cb45b006a36b841^666c74006a36b841^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/Question4ViewController.m0000000000000000^3729"CompileC build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/Question4ViewController.o MovieGame/Question4ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/CassieDusute/Documents/MovieGameiOS    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/MovieGame-generated-files.hmap -I/Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/MovieGame-own-target-headers.hmap -I/Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/MovieGame-all-target-headers.hmap -iquote /Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/MovieGame-project-headers.hmap -I/Users/CassieDusute/Documents/MovieGameiOS/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/DerivedSources/i386 -I/Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/DerivedSources -F/Users/CassieDusute/Documents/MovieGameiOS/build/Debug-iphonesimulator -include /var/folders/s3/rg62rtgx39dbnvqcxj0l89z00000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/MovieGame-Prefix-dqrxvwnifmjhqlehycoyyyfuvfeo/MovieGame-Prefix.pch -MMD -MT dependencies -MF /Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/Question4ViewController.d --serialize-diagnostics /Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/Question4ViewController.dia -c /Users/CassieDusute/Documents/MovieGameiOS/MovieGame/Question4ViewController.m -o /Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/Question4ViewController.o36"A1BECCB0-3118-4713-B277-2E2F22F6DA78-
+
+CCompileC build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/Question5ViewController.o /Users/CassieDusute/Documents/MovieGameiOS/MovieGame/Question5ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s406219264.357585
+e406219264.445318
+r1
+xCompileC
+xbuild/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/Question5ViewController.o
+x/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/Question5ViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/CassieDusute/Documents/MovieGameiOS/MovieGame/Question5ViewController.m8ead5b006a36b841^b80272006a36b841^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/Question5ViewController.m0000000000000000^3729"CompileC build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/Question5ViewController.o MovieGame/Question5ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/CassieDusute/Documents/MovieGameiOS    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/MovieGame-generated-files.hmap -I/Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/MovieGame-own-target-headers.hmap -I/Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/MovieGame-all-target-headers.hmap -iquote /Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/MovieGame-project-headers.hmap -I/Users/CassieDusute/Documents/MovieGameiOS/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/DerivedSources/i386 -I/Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/DerivedSources -F/Users/CassieDusute/Documents/MovieGameiOS/build/Debug-iphonesimulator -include /var/folders/s3/rg62rtgx39dbnvqcxj0l89z00000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/MovieGame-Prefix-dqrxvwnifmjhqlehycoyyyfuvfeo/MovieGame-Prefix.pch -MMD -MT dependencies -MF /Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/Question5ViewController.d --serialize-diagnostics /Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/Question5ViewController.dia -c /Users/CassieDusute/Documents/MovieGameiOS/MovieGame/Question5ViewController.m -o /Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/Question5ViewController.o36"51BB5AEF-0709-4B03-B49A-CF938CC713BC-
+
+CCompileC build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/main.o /Users/CassieDusute/Documents/MovieGameiOS/MovieGame/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s406219264.357149
+e406219264.395863
+r1
+xCompileC
+xbuild/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/main.o
+x/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/CassieDusute/Documents/MovieGameiOS/MovieGame/main.mb58d5b006a36b841^2c6565006a36b841^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/main.m0000000000000000^3615"CompileC build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/main.o MovieGame/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/CassieDusute/Documents/MovieGameiOS    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/MovieGame-generated-files.hmap -I/Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/MovieGame-own-target-headers.hmap -I/Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/MovieGame-all-target-headers.hmap -iquote /Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/MovieGame-project-headers.hmap -I/Users/CassieDusute/Documents/MovieGameiOS/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/DerivedSources/i386 -I/Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/DerivedSources -F/Users/CassieDusute/Documents/MovieGameiOS/build/Debug-iphonesimulator -include /var/folders/s3/rg62rtgx39dbnvqcxj0l89z00000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/MovieGame-Prefix-dqrxvwnifmjhqlehycoyyyfuvfeo/MovieGame-Prefix.pch -MMD -MT dependencies -MF /Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/main.dia -c /Users/CassieDusute/Documents/MovieGameiOS/MovieGame/main.m -o /Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/main.o36"39C59026-C615-49DA-A4DB-CE0205CCF8AF-
+
+CCompileStoryboard /Users/CassieDusute/Documents/MovieGameiOS/MovieGame/Base.lproj/MainStoryboard.storyboard
+s406219264.683818
+e406219267.725309
+r1
+xCompileStoryboard
+x/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/Base.lproj/MainStoryboard.storyboard
+o2013-11-15 09:41:06.208 Interface Builder Cocoa Touch Tool[11808:14603] CFPreferences: user home directory at file://localhost/Users/CassieDusute/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"CompileStoryboard MovieGame/Base.lproj/MainStoryboard.storyboard361faf006a36b841^4bafb9036a36b841^-247"2013-11-15 09:41:06.208 Interface Builder Cocoa Touch Tool[11808:14603] CFPreferences: user home directory at file://localhost/Users/CassieDusute/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/Base.lproj/MainStoryboard.storyboard0000000000000000^993"CompileStoryboard MovieGame/Base.lproj/MainStoryboard.storyboard    cd /Users/CassieDusute/Documents/MovieGameiOS    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/Base.lproj/MainStoryboard.storyboardc /Users/CassieDusute/Documents/MovieGameiOS/MovieGame/Base.lproj/MainStoryboard.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk36"A0D7667F-8097-40FF-8D7B-7B1396D065BD-
+
+CCopyStringsFile /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/en.lproj/InfoPlist.strings MovieGame/en.lproj/InfoPlist.strings
+s406219264.682113
+e406219264.685906
+r1
+xCopyStringsFile
+x/Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/en.lproj/InfoPlist.strings
+xMovieGame/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy MovieGame/en.lproj/InfoPlist.strings39b6ae006a36b841^2098af006a36b841^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/en.lproj/InfoPlist.strings0000000000000000^613"CopyStringsFile Frank/frankified_build/./MovieGame.app/en.lproj/InfoPlist.strings MovieGame/en.lproj/InfoPlist.strings    cd /Users/CassieDusute/Documents/MovieGameiOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/en.lproj -- MovieGame/en.lproj/InfoPlist.strings36"744E5006-96EF-4D95-BD7B-22B7FFA7788B-
+
+CCopyStringsFile /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/en.lproj/Localizable.strings MovieGame/en.lproj/Localizable.strings
+s406219264.690785
+e406219264.699177
+r1
+xCopyStringsFile
+x/Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/en.lproj/Localizable.strings
+xMovieGame/en.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy MovieGame/en.lproj/Localizable.strings9eeab0006a36b841^a8fdb2006a36b841^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/en.lproj/Localizable.strings0000000000000000^619"CopyStringsFile Frank/frankified_build/./MovieGame.app/en.lproj/Localizable.strings MovieGame/en.lproj/Localizable.strings    cd /Users/CassieDusute/Documents/MovieGameiOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/en.lproj -- MovieGame/en.lproj/Localizable.strings36"95E2DA25-A6A4-4A7D-B8CF-515A9A860A0B-
+
+CCopyStringsFile /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/es.lproj/InfoPlist.strings MovieGame/es.lproj/InfoPlist.strings
+s406219264.682176
+e406219264.684823
+r1
+xCopyStringsFile
+x/Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/es.lproj/InfoPlist.strings
+xMovieGame/es.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy MovieGame/es.lproj/InfoPlist.stringsf6b5ae006a36b841^2651af006a36b841^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/es.lproj/InfoPlist.strings0000000000000000^613"CopyStringsFile Frank/frankified_build/./MovieGame.app/es.lproj/InfoPlist.strings MovieGame/es.lproj/InfoPlist.strings    cd /Users/CassieDusute/Documents/MovieGameiOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/es.lproj -- MovieGame/es.lproj/InfoPlist.strings36"5E045D36-39CC-4E9B-A104-6AC5246E6DEE-
+
+CCopyStringsFile /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/es.lproj/Localizable.strings MovieGame/es.lproj/Localizable.strings
+s406219264.696972
+e406219264.704427
+r1
+xCopyStringsFile
+x/Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/es.lproj/Localizable.strings
+xMovieGame/es.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy MovieGame/es.lproj/Localizable.strings6a88b2006a36b841^b456b4006a36b841^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/es.lproj/Localizable.strings0000000000000000^619"CopyStringsFile Frank/frankified_build/./MovieGame.app/es.lproj/Localizable.strings MovieGame/es.lproj/Localizable.strings    cd /Users/CassieDusute/Documents/MovieGameiOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/es.lproj -- MovieGame/es.lproj/Localizable.strings36"4810ED94-26C6-4173-ABEF-9452E48AF094-
+
+CCopyStringsFile /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/es.lproj/MainStoryboard.strings MovieGame/es.lproj/MainStoryboard.strings
+s406219264.686010
+e406219264.697222
+r1
+xCopyStringsFile
+x/Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/es.lproj/MainStoryboard.strings
+xMovieGame/es.lproj/MainStoryboard.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy MovieGame/es.lproj/MainStoryboard.strings42afaf006a36b841^9a7db2006a36b841^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/es.lproj/MainStoryboard.strings0000000000000000^628"CopyStringsFile Frank/frankified_build/./MovieGame.app/es.lproj/MainStoryboard.strings MovieGame/es.lproj/MainStoryboard.strings    cd /Users/CassieDusute/Documents/MovieGameiOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/es.lproj -- MovieGame/es.lproj/MainStoryboard.strings36"E82F674F-3DBB-4E34-9C89-16DC83D4A885-
+
+CCopyStringsFile /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/fr.lproj/InfoPlist.strings MovieGame/fr.lproj/InfoPlist.strings
+s406219264.682141
+e406219264.687099
+r1
+xCopyStringsFile
+x/Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/fr.lproj/InfoPlist.strings
+xMovieGame/fr.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy MovieGame/fr.lproj/InfoPlist.strings4ab6ae006a36b841^cde8af006a36b841^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/fr.lproj/InfoPlist.strings0000000000000000^613"CopyStringsFile Frank/frankified_build/./MovieGame.app/fr.lproj/InfoPlist.strings MovieGame/fr.lproj/InfoPlist.strings    cd /Users/CassieDusute/Documents/MovieGameiOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/fr.lproj -- MovieGame/fr.lproj/InfoPlist.strings36"85DC6B56-F07B-4E13-B67B-5C9735D7B731-
+
+CCopyStringsFile /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/fr.lproj/Localizable.strings MovieGame/fr.lproj/Localizable.strings
+s406219264.693202
+e406219264.703466
+r1
+xCopyStringsFile
+x/Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/fr.lproj/Localizable.strings
+xMovieGame/fr.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy MovieGame/fr.lproj/Localizable.strings7287b1006a36b841^5517b4006a36b841^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/fr.lproj/Localizable.strings0000000000000000^619"CopyStringsFile Frank/frankified_build/./MovieGame.app/fr.lproj/Localizable.strings MovieGame/fr.lproj/Localizable.strings    cd /Users/CassieDusute/Documents/MovieGameiOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/fr.lproj -- MovieGame/fr.lproj/Localizable.strings36"2E8569FB-CD83-4F5F-AB70-BD0C1ED478E9-
+
+CCopyStringsFile /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/fr.lproj/MainStoryboard.strings MovieGame/fr.lproj/MainStoryboard.strings
+s406219264.685992
+e406219264.694969
+r1
+xCopyStringsFile
+x/Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/fr.lproj/MainStoryboard.strings
+xMovieGame/fr.lproj/MainStoryboard.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy MovieGame/fr.lproj/MainStoryboard.strings4facaf006a36b841^f7e8b1006a36b841^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/fr.lproj/MainStoryboard.strings0000000000000000^628"CopyStringsFile Frank/frankified_build/./MovieGame.app/fr.lproj/MainStoryboard.strings MovieGame/fr.lproj/MainStoryboard.strings    cd /Users/CassieDusute/Documents/MovieGameiOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/fr.lproj -- MovieGame/fr.lproj/MainStoryboard.strings36"3EEFE2DF-4C62-4871-9BB8-D79B6CFEBA4A-
+
+CCopyStringsFile /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/zh-Hans.lproj/InfoPlist.strings MovieGame/zh-Hans.lproj/InfoPlist.strings
+s406219264.682517
+e406219264.688118
+r1
+xCopyStringsFile
+x/Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/zh-Hans.lproj/InfoPlist.strings
+xMovieGame/zh-Hans.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy MovieGame/zh-Hans.lproj/InfoPlist.strings96cbae006a36b841^732bb0006a36b841^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/zh-Hans.lproj/InfoPlist.strings0000000000000000^633"CopyStringsFile Frank/frankified_build/./MovieGame.app/zh-Hans.lproj/InfoPlist.strings MovieGame/zh-Hans.lproj/InfoPlist.strings    cd /Users/CassieDusute/Documents/MovieGameiOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/zh-Hans.lproj -- MovieGame/zh-Hans.lproj/InfoPlist.strings36"AA925959-8967-4338-B8C8-4DE49DB5EDBE-
+
+CCopyStringsFile /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/zh-Hans.lproj/Localizable.strings MovieGame/zh-Hans.lproj/Localizable.strings
+s406219264.698760
+e406219264.706445
+r1
+xCopyStringsFile
+x/Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/zh-Hans.lproj/Localizable.strings
+xMovieGame/zh-Hans.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy MovieGame/zh-Hans.lproj/Localizable.stringsaa0cb3006a36b841^4ddab4006a36b841^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/zh-Hans.lproj/Localizable.strings0000000000000000^639"CopyStringsFile Frank/frankified_build/./MovieGame.app/zh-Hans.lproj/Localizable.strings MovieGame/zh-Hans.lproj/Localizable.strings    cd /Users/CassieDusute/Documents/MovieGameiOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/zh-Hans.lproj -- MovieGame/zh-Hans.lproj/Localizable.strings36"7783B21A-2794-4E0A-B5A4-69AE6FCF13FF-
+
+CCopyStringsFile /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/zh-Hans.lproj/MainStoryboard.strings MovieGame/zh-Hans.lproj/MainStoryboard.strings
+s406219264.688259
+e406219264.698183
+r1
+xCopyStringsFile
+x/Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/zh-Hans.lproj/MainStoryboard.strings
+xMovieGame/zh-Hans.lproj/MainStoryboard.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy MovieGame/zh-Hans.lproj/MainStoryboard.strings0740b0006a36b841^b6bcb2006a36b841^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/zh-Hans.lproj/MainStoryboard.strings0000000000000000^648"CopyStringsFile Frank/frankified_build/./MovieGame.app/zh-Hans.lproj/MainStoryboard.strings MovieGame/zh-Hans.lproj/MainStoryboard.strings    cd /Users/CassieDusute/Documents/MovieGameiOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/zh-Hans.lproj -- MovieGame/zh-Hans.lproj/MainStoryboard.strings36"2DE908EE-548E-4583-A1CB-352B725573B3-
+
+CCpResource MovieGame/../../../Downloads/movie-game-logo.png Frank/frankified_build/./MovieGame.app/movie-game-logo.png
+s406219264.688268
+e406219264.697975
+r1
+xCpResource
+xMovieGame/../../../Downloads/movie-game-logo.png
+xFrank/frankified_build/./MovieGame.app/movie-game-logo.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy Frank/frankified_build/./MovieGame.app/movie-game-logo.png7c48b0006a36b841^9bafb2006a36b841^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/movie-game-logo.png000000000080d041^678"CpResource MovieGame/../../../Downloads/movie-game-logo.png Frank/frankified_build/./MovieGame.app/movie-game-logo.png    cd /Users/CassieDusute/Documents/MovieGameiOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/CassieDusute/Documents/MovieGameiOS/MovieGame/../../../Downloads/movie-game-logo.png /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app36"295C76CA-F442-4E76-8C1A-04A8AB748208-
+
+CCpResource MovieGame/Default-568h@2x.png Frank/frankified_build/./MovieGame.app/Default-568h@2x.png
+s406219264.682607
+e406219264.692070
+r1
+xCpResource
+xMovieGame/Default-568h@2x.png
+xFrank/frankified_build/./MovieGame.app/Default-568h@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy Frank/frankified_build/./MovieGame.app/Default-568h@2x.pngb7cfae006a36b841^e52bb1006a36b841^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/Default-568h@2x.png000000000080d041^646"CpResource "MovieGame/Default-568h@2x.png" "Frank/frankified_build/./MovieGame.app/Default-568h@2x.png"    cd /Users/CassieDusute/Documents/MovieGameiOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/Default-568h@2x.png" /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app36"CAD8D2E2-49BC-4D72-9EC3-4D8A8FCF87AD-
+
+CCpResource MovieGame/Default.png Frank/frankified_build/./MovieGame.app/Default.png
+s406219264.682604
+e406219264.690340
+r1
+xCpResource
+xMovieGame/Default.png
+xFrank/frankified_build/./MovieGame.app/Default.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy Frank/frankified_build/./MovieGame.app/Default.png4ed0ae006a36b841^a6bab0006a36b841^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/Default.png000000000080d041^616"CpResource MovieGame/Default.png Frank/frankified_build/./MovieGame.app/Default.png    cd /Users/CassieDusute/Documents/MovieGameiOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/CassieDusute/Documents/MovieGameiOS/MovieGame/Default.png /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app36"419E4DFC-E3BC-445B-9330-E3D636963FB7-
+
+CCpResource MovieGame/Default@2x.png Frank/frankified_build/./MovieGame.app/Default@2x.png
+s406219264.682600
+e406219264.689431
+r1
+xCpResource
+xMovieGame/Default@2x.png
+xFrank/frankified_build/./MovieGame.app/Default@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy Frank/frankified_build/./MovieGame.app/Default@2x.png64cfae006a36b841^567fb0006a36b841^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/Default@2x.png000000000080d041^631"CpResource "MovieGame/Default@2x.png" "Frank/frankified_build/./MovieGame.app/Default@2x.png"    cd /Users/CassieDusute/Documents/MovieGameiOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/Default@2x.png" /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app36"5B4DAF41-3655-4C4A-82CB-DE75E7723095-
+
+CCpResource movie-game-logo.png Frank/frankified_build/./MovieGame.app/movie-game-logo.png
+s406219264.690778
+e406219264.699928
+r1
+xCpResource
+xmovie-game-logo.png
+xFrank/frankified_build/./MovieGame.app/movie-game-logo.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy Frank/frankified_build/./MovieGame.app/movie-game-logo.png0bedb0006a36b841^772fb3006a36b841^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/movie-game-logo.png000000000080d041^620"CpResource movie-game-logo.png Frank/frankified_build/./MovieGame.app/movie-game-logo.png    cd /Users/CassieDusute/Documents/MovieGameiOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/CassieDusute/Documents/MovieGameiOS/movie-game-logo.png /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app36"851B5178-DA5D-43AC-87A3-DA0DAC073CDE-
+
+CGenerateDSYMFile /Users/CassieDusute/Documents/MovieGameiOS/build/Debug-iphonesimulator/MovieGame.app.dSYM /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/MovieGame
+s406219264.569876
+e406219264.672979
+r1
+xGenerateDSYMFile
+x/Users/CassieDusute/Documents/MovieGameiOS/build/Debug-iphonesimulator/MovieGame.app.dSYM
+x/Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/MovieGame
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Generating /Users/CassieDusute/Documents/MovieGameiOS/build/Debug-iphonesimulator/MovieGame.app.dSYM981592006a36b841^6b48ac006a36b841^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/CassieDusute/Documents/MovieGameiOS/build/Debug-iphonesimulator/MovieGame.app.dSYM000000000080d041^671"GenerateDSYMFile build/Debug-iphonesimulator/MovieGame.app.dSYM Frank/frankified_build/./MovieGame.app/MovieGame    cd /Users/CassieDusute/Documents/MovieGameiOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/MovieGame -o /Users/CassieDusute/Documents/MovieGameiOS/build/Debug-iphonesimulator/MovieGame.app.dSYM36"80A4DB1F-9BD4-4983-B31D-9D75612E1293-
+
+CLd /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/MovieGame normal i386
+s406219264.470897
+e406219264.561987
+r1
+xLd
+x/Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/MovieGame
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Link /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/MovieGame55a278006a36b841^b1df8f006a36b841^---0#0#0#--1384"Ld Frank/frankified_build/./MovieGame.app/MovieGame normal i386    cd /Users/CassieDusute/Documents/MovieGameiOS    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -L/Users/CassieDusute/Documents/MovieGameiOS/build/Debug-iphonesimulator -L/Users/CassieDusute/Documents/MovieGameiOS/Frank -F/Users/CassieDusute/Documents/MovieGameiOS/build/Debug-iphonesimulator -filelist /Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/Objects-normal/i386/MovieGame.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -all_load -ObjC -framework CFNetwork -framework Security -lShelley -lCocoaAsyncSocket -lCocoaLumberjack -lCocoaHTTPServer -lFrank -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.0 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/MovieGame36"B4DE0557-7B9F-4AFD-A54D-EB6560F3B531-
+
+CProcessInfoPlistFile /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/Info.plist MovieGame/MovieGame-Info.plist
+s406219263.929323
+e406219263.932206
+r1
+xProcessInfoPlistFile
+x/Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/Info.plist
+xMovieGame/MovieGame-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Process MovieGame/MovieGame-Info.plist0800eeff6936b841^83a5eeff6936b841^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/MovieGame-Info.plist0000000000000000^695"ProcessInfoPlistFile Frank/frankified_build/./MovieGame.app/Info.plist MovieGame/MovieGame-Info.plist    cd /Users/CassieDusute/Documents/MovieGameiOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-infoPlistUtility MovieGame/MovieGame-Info.plist -genpkginfo /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app/Info.plist36"9F472491-B4F5-4AFC-BA26-645D3122380C-
+
+CProcessPCH /var/folders/s3/rg62rtgx39dbnvqcxj0l89z00000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/MovieGame-Prefix-dqrxvwnifmjhqlehycoyyyfuvfeo/MovieGame-Prefix.pch.pth MovieGame/MovieGame-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s406219263.947672
+e406219264.349651
+r1
+xProcessPCH
+x/var/folders/s3/rg62rtgx39dbnvqcxj0l89z00000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/MovieGame-Prefix-dqrxvwnifmjhqlehycoyyyfuvfeo/MovieGame-Prefix.pch.pth
+xMovieGame/MovieGame-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile MovieGame/MovieGame-Prefix.pchc7b8f2ff6936b841^aa8259006a36b841^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/CassieDusute/Documents/MovieGameiOS/MovieGame/MovieGame-Prefix.pch0000000000000000^3661"ProcessPCH /var/folders/s3/rg62rtgx39dbnvqcxj0l89z00000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/MovieGame-Prefix-dqrxvwnifmjhqlehycoyyyfuvfeo/MovieGame-Prefix.pch.pth MovieGame/MovieGame-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/CassieDusute/Documents/MovieGameiOS    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/MovieGame-generated-files.hmap -I/Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/MovieGame-own-target-headers.hmap -I/Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/MovieGame-all-target-headers.hmap -iquote /Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/MovieGame-project-headers.hmap -I/Users/CassieDusute/Documents/MovieGameiOS/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/DerivedSources/i386 -I/Users/CassieDusute/Documents/MovieGameiOS/build/MovieGame.build/Debug-iphonesimulator/MovieGame.build/DerivedSources -F/Users/CassieDusute/Documents/MovieGameiOS/build/Debug-iphonesimulator --serialize-diagnostics /var/folders/s3/rg62rtgx39dbnvqcxj0l89z00000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/MovieGame-Prefix-dqrxvwnifmjhqlehycoyyyfuvfeo/MovieGame-Prefix.pch.dia -c /Users/CassieDusute/Documents/MovieGameiOS/MovieGame/MovieGame-Prefix.pch -o /var/folders/s3/rg62rtgx39dbnvqcxj0l89z00000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/MovieGame-Prefix-dqrxvwnifmjhqlehycoyyyfuvfeo/MovieGame-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/s3/rg62rtgx39dbnvqcxj0l89z00000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/MovieGame-Prefix-dqrxvwnifmjhqlehycoyyyfuvfeo/MovieGame-Prefix.pch.d36"FF69484F-3B42-4ABD-B243-6B8D1866CEE8-
+
+CSymLink /Users/CassieDusute/Documents/MovieGameiOS/build/Debug-iphonesimulator/MovieGame.app /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app
+s406219263.929539
+e406219263.938986
+r1
+xSymLink
+x/Users/CassieDusute/Documents/MovieGameiOS/build/Debug-iphonesimulator/MovieGame.app
+x/Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Process /Users/CassieDusute/Documents/MovieGameiOS/build/Debug-iphonesimulator/MovieGame.appdc0deeff6936b841^2464f0ff6936b841^---0#0#0#--545"SymLink build/Debug-iphonesimulator/MovieGame.app Frank/frankified_build/./MovieGame.app    cd /Users/CassieDusute/Documents/MovieGameiOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /bin/ln -sf /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app /Users/CassieDusute/Documents/MovieGameiOS/build/Debug-iphonesimulator/MovieGame.app36"8D2A8474-6FFC-4451-89D8-24043D795083-
+
+CTouch /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app
+s406219267.733313
+e406219267.736965
+r1
+xTouch
+x/Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Touch /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app71cbbb036a36b841^00aabc036a36b841^---0#0#0#--422"Touch Frank/frankified_build/./MovieGame.app    cd /Users/CassieDusute/Documents/MovieGameiOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /usr/bin/touch -c /Users/CassieDusute/Documents/MovieGameiOS/Frank/frankified_build/./MovieGame.app36"816310EB-B751-48BE-9C4F-E68C562A1AE2-
+

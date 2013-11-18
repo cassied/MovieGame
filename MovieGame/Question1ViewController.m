@@ -39,7 +39,7 @@
 {
     UIAlertView *WrongAnswerAlert = [[UIAlertView alloc]
                                      initWithTitle:@"Wrong Answer"
-                                     message:NSLocalizedString(@"Message", @"Wrong Answer")
+                                     message:NSLocalizedString(@"You've guessed the wrong answer. Try again.", @"Wrong Answer")
                                      delegate:nil
                                      cancelButtonTitle:@"OK"
                                      otherButtonTitles:nil];
