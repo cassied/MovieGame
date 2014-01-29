@@ -83,7 +83,7 @@
             <objects>
                 <viewController id="gPZ-5G-mJ8" customClass="Question1ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rNd-op-4a2">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WUu-iC-b4c">
@@ -186,7 +186,7 @@
             <objects>
                 <viewController id="ElN-em-sYg" customClass="Question3ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4wF-D3-b0C">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Fd-hK-HSv">
@@ -289,7 +289,7 @@
             <objects>
                 <viewController id="VbL-tm-wBX" customClass="FinishedGameViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1cD-ig-q0q">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="feK-fJ-bSp">
@@ -364,7 +364,7 @@
             <objects>
                 <viewController id="32v-co-RGK" customClass="Question4ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LpW-Ln-GFw">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m0b-SB-J5p">
@@ -467,7 +467,7 @@
             <objects>
                 <viewController id="iU8-vh-IZj" customClass="Question5ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kcI-oy-fe7">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ycl-47-LA5">
@@ -570,7 +570,7 @@
             <objects>
                 <viewController id="KRQ-Nh-HRm" customClass="Question2ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zAg-SP-ZTi">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ENP-02-5ii">
@@ -735,11 +735,11 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="Evg-dR-4rg"/>
         <segue reference="XYf-wL-m7y"/>
-        <segue reference="vWl-hX-Wz6"/>
-        <segue reference="x5a-Wn-Bso"/>
-        <segue reference="MwE-gf-Odz"/>
+        <segue reference="jqG-Hh-QA3"/>
+        <segue reference="Evg-dR-4rg"/>
         <segue reference="akK-Ma-dsZ"/>
+        <segue reference="MwE-gf-Odz"/>
+        <segue reference="x5a-Wn-Bso"/>
     </inferredMetricsTieBreakers>
 </document>
